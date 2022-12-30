@@ -1,0 +1,669 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: #E9E9E9;
+    margin: 0 auto;
+    
+
+}
+#skip {
+    background-color: #fff;
+    border: 1px solid black;
+    padding: 2px;
+    position: absolute;
+    left: -999px;
+    color: #000;
+}
+#skip:focus {
+    left: 10px;
+    top: 30px;
+}
+
+.NavBarLogo, .NavBarLogo img {
+    height: 110px;
+  
+}
+
+
+.NavBar {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    vertical-align: middle;
+    padding-left: 10%;
+    padding-right: 10%;
+    border-bottom: 3px solid #0000ee;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 56px;
+    background: #ffffff;
+    box-sizing: border-box;
+
+}
+.NavBarLinks {
+    position: absolute;
+    top: 55px;
+    right: 20%;
+    font-weight: 700;
+    font-size: 18px;
+    justify-content: space-between;
+    
+}
+.NavBarLinks a:link, .NavBarLinks a:visited, .NavBarLinks a:hover, .NavBarLinks a:active {
+    text-decoration: none;
+}
+.NavBarLinks a:link, .NavBarLinks a:visited {
+    color: #0000ee;
+}
+.NavBarLinks a:hover, .NavBarLinks a:active {
+    color: #00005e;
+    text-decoration: underline;
+}
+
+
+.NavBarLinksChild {
+    display: inline;
+    padding-left: 100px;
+
+}
+
+
+
+h1 {
+    font-size: 2.441em;
+    font-weight: 700;
+    font-style: normal;
+    padding-left: 10%;
+    width:fit-content;
+    border-bottom: 6px solid #0000ee;
+    padding-bottom: 4px;
+    margin-right: 10%;
+    height: 100%;
+    
+    
+}
+
+h2 {
+    color: #0000ee;
+    font-size: 1.953em;
+    margin-bottom: 16px;
+    font-weight: 700;
+
+}
+
+h3 {
+    color: #0000ee;
+    font-size: 1.563em;
+    font-weight: 600;
+} 
+.Button {
+    padding: 12px 20px;
+    background: #0000ee;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 1em;
+    line-height: 150%;
+    font-style: normal;
+    width: 40%;
+    text-align: center;
+    }
+.Button:active, .Button:hover {
+    background: #00005e;
+}
+
+.BodyText {
+    font-size: 1em;
+    line-height: 150%;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    width: 60%;
+}
+.BoldBodyText {
+    font-weight: 600;
+    color: #0000ee;
+    font-size: larger;
+}
+.BodyLargeHome {
+    font-size: 1.5em;
+    line-height: 150%;
+    font-style: normal;
+    font-weight: 500;
+    padding-right: 10%;
+    padding-left: 10%;
+    width: 100%;
+    
+}
+
+.BodyLarge {
+    font-size: 1.5em;
+    line-height: 150%;
+    font-style: normal;
+    font-weight: 500;
+    padding-right: 10%;
+    padding-left: 10%;
+    width: 50%;
+}
+
+/* Use border-bottom with padding-bottom instead of .Line
+.Line {
+    width: 506px;
+    height: 6px;
+    background: #0000ee;
+    margin: 0;
+    margin-right: 10%;
+    
+}
+*/
+
+/* PROJECT PAGE START */
+
+.ProjectPageIntro {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+}
+.ProjectPageIntro img {
+    max-width: 400px;
+}
+.ProjectPageButton {
+    margin-left: 10%;
+}
+.ProjectPageH2 {
+    margin-top: 64px;
+}
+.ProjectMainContent {
+    margin-left: 10%;
+}
+.ProjectMainContent p {
+    font-size: 1em;
+    line-height: 150%;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    width: 60%;
+}
+li {
+    font-size: 1em;
+    line-height: 150%;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    width: 60%;
+}
+.ProjectMainContent h3 {
+    color: #000000;
+    font-weight: 450;
+}
+.ProjectMainContent p {
+    margin-top: 0px;
+}
+.ProjectMainContent h2, .ProjectMainContent h3, .ProjectMainContent h4 {
+    margin-bottom: 8px;
+}
+.ProjectMainContent img {
+    max-width: 350px;
+}
+.ProjectTag {
+font-weight: 300;
+font-size: 1.563em;
+line-height: 24px;
+letter-spacing: 0.03em;
+margin-bottom: 0;
+margin-left: 10%;
+}
+.FinalDesignDiv {
+    
+}
+.OtherProjectsGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 1em;
+    column-gap: 1em;
+    max-width: 800px;
+    
+}
+.OtherProjectsGrid a:active, .OtherProjectsGrid a:hover, .OtherProjectsGrid a:visited, .OtherProjectsGrid a:link {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #0000ee;
+    width: 350px;
+    height: 1.5em;    
+}
+.OtherProjectsGrid a:active, .OtherProjectsGrid a:hover {
+    background: #00005e;
+}
+.OtherProjectsChild {
+    
+}
+
+.OtherProject {
+    text-decoration: none;
+    color: #000000;
+    padding: 16px;
+    width: 350px;
+    background: #ffffff;
+    margin-bottom: 8px;
+    border-bottom: solid 4px #0000ee;
+    text-align: center;
+    
+}
+.OtherProjectLink {
+    text-decoration: none;
+}
+.OtherProject p {
+    width: 100%;
+}
+.OtherProjectName {
+    color: #0000ee;
+    font-size: 1.4em !important;
+    font-weight: 600 !important;
+    margin-bottom: 0;
+}
+.OtherProjectTag {
+    font-weight: 300 !important;
+    font-size: 1.25em !important;
+    line-height: 24px !important;
+    letter-spacing: 0.03em !important;
+    margin-bottom: 8px !important;
+}
+
+.CurrentOtherProject {
+    display: none;
+    background: #bdbdbd;
+}
+.OtherProject:active, .OtherProject:hover {
+    text-decoration: none;
+    background: hsl(240, 100%, 93%);
+    
+}
+
+.OtherProject:visited, .OtherProject:link {
+    background: #0000ee;
+    text-decoration: none;
+}
+.OtherProjectImage {
+    max-height: 200px;
+    margin-top: .5em;
+}
+/* PROJECT PAGE END */
+
+/* ADHD TASK APP PAGE START */
+
+.BrainstormingImage {
+    max-width: 800px !important
+}
+
+/* ADHD TASK APP PAGE END */
+
+/* DIGITAL CAT MAGAZINE PAGE START */
+
+.DigitalCatMagazineIntroImage {
+    max-height: 300px !important;
+}
+.DigitalCatMagazinePersona {
+    max-width: 800px !important;
+}
+
+/* DIGITAL CAT MAGAZINE PAGE END */
+
+/*TWITTER FILTER FEATURE PAGE START */
+
+
+
+/*TWITTER FILTER FEATURE PAGE END */
+
+/*DOWN SYNDROME INFOGRAPHICS PAGE START */
+.DownSyndromeInfographicsImages {
+    display: flex;
+
+}
+/*
+.DownSyndromeInfographicsGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 8px;
+    column-gap: 8px;
+    margin-left: 16px;
+}
+*/
+
+.DownSyndromeInfographicsImages img {
+    max-width: 400px;
+    margin-right: 8px;
+    
+
+
+}
+
+
+/*DOWN SYNDROME INFOGRAPHICS PAGE END */
+
+/*TYPE SPECIMEN PAGE START */
+
+.Quote {
+    font-style: italic;
+    margin-left: 1em;
+    margin-top: .75em;
+    display: block;
+    width: 75%;
+    border-left: 2px solid #0000ee;
+    padding-left: 1em;
+}
+
+
+/*TYPE SPECIMEN PAGE END */
+
+/* FOOTER START */
+
+footer {
+    background: #ffffff;
+    margin-top: 56px;
+    padding: 32px;
+    border-top: 3px solid #0000ee;
+
+}
+footer a:hover, footer a:active {
+    color: #00005e;
+}
+.FooterDiv {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    font-size: .9em;
+    
+}
+.PhoneNumber {
+    margin-left: 2em;
+    margin-right: 2em;
+}
+.LinkedinLogo {
+    width: 40px;
+}
+
+
+/* FOOTER END */
+/* HOME PAGE START */
+
+.HeroSectionHome {
+
+}
+
+
+
+
+
+.HeroSectionHome .Button {
+    margin-left: 5%;
+    margin-right: 10%;
+    height: min-content;
+    
+}
+.HeroHomeName {
+    
+}
+.HeroHomeSubheading {
+    background: #ffffff;
+    width: 100%;
+    margin-left: 0%;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin-top: 40px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+
+}
+.HeroHomeDescription {
+    padding-left: 10%;
+    margin-bottom: 32px;
+    width: 60%;
+}
+
+header a:link, header a:visited, header a:hover, .header a:active {
+    text-decoration: none;
+}
+
+
+#Projects {
+    margin-left: 10%;
+    margin-top: 32px;
+}
+#Projects a:link, #Projects a:visited, #Projects a:hover, #Projects a:active {
+    text-decoration: none;
+    color: #000000;
+}
+.ProjectGrid {
+    /*
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    */
+}
+.ProjectCard {
+    background: #ffffff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    flex-basis: 100%;
+    margin-bottom: 32px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid 4px #0000ee;
+}
+.ProjectCard:hover {
+    background: hsl(240, 100%, 93%);
+}
+.ProjectInfoHome {
+    padding-left: 5%;
+    width: 100%;
+
+}
+.ProjectHomeTag {
+font-weight: 300;
+font-size: 1.25em;
+line-height: 24px;
+letter-spacing: 0.03em;
+margin-bottom: 0;
+}
+
+.ProjectHomeName {
+    margin-top: 1em;
+    margin-bottom: .5em;
+}
+.ProjectHomeDescription {
+    margin-top: 0;
+    width: 90%;
+}
+#ProjectCard p {
+    padding-left: 0%;
+}
+.ProjectLink {
+    display: flex;
+}
+.SeeProject {
+    font-size: 1.15em;
+    color: #0000ee;
+    font-weight: 500;
+    margin-right: .2em;
+}
+.ArrowIcon {
+    width: 37px;
+}
+.ProjectImageHome {
+    display: flex;
+    justify-content: center;
+    width: 700px;
+    margin-right: 5%;
+
+    
+    
+}
+.ProjectImageHome img {
+    max-height: 300px;
+    
+
+
+    
+}
+
+#Contact {
+    margin-left: 10%;
+    margin-top: 32px;
+}
+input, textarea {
+    font-family: inherit;
+}
+.FormInfoDiv input {
+    width: 30vw;
+    height: 2.5em;
+    border: #000000 1px solid;
+    margin-top: 2px;
+}
+form label {
+    font-size: 16px;
+    margin-bottom: 1em;
+    font-weight: 500;
+}
+.FormInfoDiv {
+    display: flex;
+    
+
+}
+.FormChild {
+    margin-left: 5vw;
+}
+.FormMessageDiv textarea {
+    width: 65.5vw;
+    height: 10em;
+    border: #000000 1px solid;
+    margin-top: 2px;
+
+}
+.FormMessageDiv {
+    margin-top: 1em;
+}
+.SubmitButton {
+    padding: 12px 30px;
+    background: #0000ee;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 1em;
+    line-height: 150%;
+    font-style: normal;
+    margin-top: 1em;
+    text-align: center;
+    cursor: pointer;
+}
+.SubmitButton:active, .SubmitButton:hover {
+    background: #00005e;
+}
+
+/* HOME PAGE END */
+
+
+/* START MOBILE LESS THAN 600px */
+
+@media only screen and (max-width: 480px) {
+    .NavBar {
+        display: grid;
+        row-gap: 1.5em;
+    }
+    .NavBarLogo {
+        height: min-content;
+        width: inherit;
+    }
+    .NavBarLogo img {
+        width: 150px;
+        height: auto;
+    }
+    .NavBarLinks {
+        display: inline;
+        position:initial;
+        margin-right: 0;
+    }
+    .NavBarLinksChild {
+        padding-right: 0;
+        padding-left: 0;
+        font-size: .9em;
+    }
+    .NavLinkProjects {
+        margin-left: 1.5em;
+        margin-right: 1.5em;
+    }
+    
+    .ProjectGrid {
+        width: 100%;
+        display: block;
+    }
+    .ProjectCard {
+        display: block;
+    }
+    .ProjectInfoHome {
+        width: initial;
+    }
+    .ProjectImageHome {
+        width: inherit;
+        margin-right: 0;
+    }
+    .ProjectImageHome img {
+        max-height: 200px;
+    }
+    #Projects {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    #Contact {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .HeroHomeSubheading {
+        display: block;
+        padding-bottom: 2em;
+        padding-top: 1em;
+    }
+    .BodyLargeHome {
+        padding-left: 5%;
+        padding-right: 5%;
+        width: auto;
+        margin-top: 0;
+        margin-bottom: 1.5em;
+    }
+    .HeroSectionHome .Button {
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 0;
+    }
+    .HeroHomeDescription {
+        width: initial;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .FooterDiv {
+        display: grid;
+        justify-content: center;
+        justify-items: center;
+        row-gap: 1em;
+    }
+    .FooterDiv a {
+        display: block;
+    }
+    .PhoneNumber {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+
+
+
+
+}
+
+
+
+
+
+/* END MOBILE LESS THAN 600px */
