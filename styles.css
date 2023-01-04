@@ -2,7 +2,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     background: #E9E9E9;
     margin: 0 auto;
-    
+
 }
 #skip {
     background-color: #fff;
@@ -339,7 +339,8 @@ margin-left: 10%;
 
 /*DOWN SYNDROME INFOGRAPHICS PAGE START */
 .DownSyndromeInfographicsImages {
-    display: flex;
+    display: grid;
+  
 
 }
 /*
@@ -353,9 +354,11 @@ margin-left: 10%;
 */
 
 .DownSyndromeInfographicsImages img {
-    max-width: 400px;
+    max-width: 70%;
     margin-right: 8px;
 }
+
+
 
 
 
