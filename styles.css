@@ -603,6 +603,156 @@ form label {
 
 /* HOME PAGE END */
 
+/* START MOBILE LESS THAN 1200px */
+
+@media only screen and (max-width: 1200px) {
+
+    .ProjectPageIntro {
+        display: block;
+        margin-bottom: 2em;
+    }
+    .ProjectTag {
+        margin-left: 10%;
+    }
+    .BodyLarge {
+        padding-left: 10%;
+        width: auto;
+        padding-right: 10%;
+        font-size: 1.5em;
+        line-height: 150%;
+    }
+    .ProjectPageIntro img {
+        margin-left: 10%;
+        max-width: 300px;
+        margin-right: 10%;
+        
+    }
+    .ProjectPageButton {
+        margin-left: 10%;
+    }
+    .ProjectMainContent {
+        margin-left: 10%;
+    }
+    li {
+        font-size: 1em;
+        line-height: 150%;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%;
+        width: 90%;
+    }
+    .FinalDesignDiv iframe {
+        width: 99%;
+        height: 600px;
+    }
+    .FinalDesignDiv img {
+        max-width:100%;
+        margin-bottom: 2em;
+    }
+    .FinalDesignDiv {
+        margin-right: 10%;
+    }
+    .BrainstormingImage {
+        max-width: 100% !important;
+    }
+    .DigitalCatMagazineIntroImage {
+        max-height: 500px !important;
+    }
+    .DigitalCatMagazinePersona {
+        max-width: 100% !important;
+    }
+    .CatMagazineDesignSolution {
+        display: block;
+    }
+    .PrintCatMagazineDesignSolutionChild {
+        margin-bottom: 1.5em;
+    }
+    .PrintCatMagazineDesignSolutionChild img {
+        max-width: 90%;
+    }
+    .UICatMagazineDesignSolutionChild img {
+        max-width: 150px;
+    }
+    .DownSyndromeInfographicsImages {
+        display: block;
+    }
+    .OtherProjectsGrid {
+        display: block;
+    }
+    .OtherProject {
+        text-decoration: none;
+        color: #000000;
+        padding: 16px;
+        width: 50%;
+        background: #ffffff;
+        margin-bottom: 8px;
+        border-bottom: solid 4px #0000ee;
+        text-align: center;
+        margin-bottom: 1.5em;
+    }
+    .OtherProject img {
+        max-width: 100%;
+    }
+    h1 {
+       
+    }
+    .HeroHomeName {
+       
+    }
+    .NavBarLinks {
+        margin-left: 5%;
+    }
+    .NavBarLinksChild {
+        padding-left: 2em;
+    }
+    .NavBar {
+        display: flex;
+    }
+    
+}
+
+
+/* END MOBILE GREATER THAN 1200px */
+
+/* START MOBILE LESS THAN 800px */
+
+@media only screen and (max-width: 800px) {
+
+    .NavBar {
+        display: grid;
+        row-gap: 1em;
+    }
+    .NavBarLogo {
+        height: min-content;
+        width: inherit;
+    }
+    .NavBarLogo img {
+        width: 150px;
+        height: auto;
+    }
+    .NavBarLinks {
+        display: inline;
+        position:initial;
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .NavBarLinksChild {
+        padding-right: 0;
+        padding-left: 0;
+        font-size: .9em;
+    }
+    .NavLinkProjects {
+        margin-left: 1.5em;
+        margin-right: 1.5em;
+    }
+   
+
+}
+
+/* END MOBILE LESS THAN 800px */
+
+
+
 
 /* START MOBILE LESS THAN 480px */
 
@@ -793,3 +943,25 @@ form label {
 
 
 /* END MOBILE LESS THAN 480px */
+
+/* START MOBILE GREATER THAN 320px */
+
+
+@media only screen and (max-width: 479px) {
+
+.OtherProject {
+    text-decoration: none;
+    color: #000000;
+    padding: 16px;
+    width: 250px;
+    background: #ffffff;
+    margin-bottom: 8px;
+    border-bottom: solid 4px #0000ee;
+    text-align: center;
+}
+
+
+
+}
+
+/* END MOBILE GREATER THAN 320px */
