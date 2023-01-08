@@ -752,6 +752,44 @@ form label {
 /* END MOBILE LESS THAN 800px */
 
 
+/* START MOBILE LESS THAN 950px */
+@media only screen and (max-width: 950px) {
+
+.ProjectGrid {
+    width: 100%;
+    display: block;
+}
+.ProjectCard {
+    display: block;
+}
+.ProjectInfoHome {
+    width: initial;
+}
+.ProjectImageHome {
+    width: inherit;
+    margin-right: 0;
+    justify-content: left;
+}
+.ProjectImageHome img {
+    max-width: 70%;
+    padding-left: 5%;
+}
+.HeroHomeSubheading {
+    display: block;
+    padding-bottom: 2em;
+    padding-top: 1em;
+}
+.HeroHomeSubheading p {
+    width: 70%;
+    margin-bottom: 1.5em;
+}
+.HeroHomeSubheading .Button {
+    margin-left: 10%;
+}
+
+}
+
+/* END MOBILE LESS THAN 950px */
 
 
 /* START MOBILE LESS THAN 480px */
