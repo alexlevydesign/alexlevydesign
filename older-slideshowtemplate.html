@@ -9,7 +9,7 @@
             background-color: #111111;
             color: #ffffff;
         }
-        .slider-wrapper {
+        .slideshow {
             background-color: #000000;
             width: 1200px;
             margin: auto; /* margin auto is centering this container */
@@ -17,7 +17,9 @@
             flex-flow: column;
             align-items: center;
         }
-        
+        .slidesdiv {
+           
+        }
         #planetinfo div {
             width: 75%;
         }
@@ -40,42 +42,23 @@
             display: none;
         }
     
-        .slides-container img {
+        .slidesdiv img {
             max-width: 800px; 
         }
         .clear {
             clear: both;
         }
-        .slide-arrow{
+        .slideshow-button .prev {
+            background-color: #ffffff;
+        }
+        .slideshow-button .next {
             background-color: #ffffff;
         }
         
         
     </style>
     <script>
-        
-        const slidesContainer = document.getElementById("slides-container");
-        const slide = document.querySelector(".slide");
-        const prevButton = document.getElementById("slide-arrow-prev");
-        const nextButton = document.getElementById("slide-arrow-next");
 
-        nextButton.addEventListener("click", (event) => {
-            const slideWidth = slide.clientWidth;
-            slidesContainer.scrollLeft += slideWidth;
-        });
-
-        prevButton.addEventListener("click", () => {
-            const slideWidth = slide.clientWidth;
-            slidesContainer.scrollLeft -= slideWidth;
-        });
-
-
-
-        
-        
-        
-        
-        /*
         const buttons = document.querySelectorAll("[data-slideshow-button]");
         
         buttons.forEach(button => {
@@ -91,7 +74,6 @@
             delete activeSlide.dataset.active;
             })
         })
-        */
  
        function planetsOff () {
         document.getElementById("mercury").style.display="none";
@@ -147,41 +129,24 @@
 </head>
 <body>
 
-<div class="slider-wrapper" id="slider-wrapper">
+<div class="slideshow" data-slideshow>
     
-        <ul class="slides-container" id="slides-container">
-            <li class="slide">
-                <img src="images/type-specimen-images8.png" alt="mercury" id="mercury">
-            </li>
-            <li class="slide">
-                <img src="images/type-specimen-images.png" alt="venus" id="venus">
-            </li>
-            <li class="slide">
-                <img src="images/type-specimen-images2.png" alt="earth" id="earth">
-            </li>
-            <li class="slide">
-                <img src="images/type-specimen-images3.png" alt="mars" id="mars">
-            </li>
-            <li class="slide">
-                <img src="images/type-specimen-images4.png" alt="jupiter" id="jupiter">
-            </li>
-            <li class="slide">
-                <img src="images/type-specimen-images5.png" alt="saturn" id="saturn">
-            </li>
-            <li class="slide">
-                <img src="images/type-specimen-images6.png" alt="uranus" id="uranus">
-            </li>
-            <li class="slide">
-                <img src="images/type-specimen-images7.png" alt="neptune" id="neptune">
-            </li>
-        </ul>
-    <button class="slide-arrow" id="slide-arrow-prev">
+        <div class="slidesdiv" data-slides>
+        <img src="images/type-specimen-images8.png" alt="mercury" id="mercury" class="slide" data-active>
+        <img src="images/type-specimen-images.png" alt="venus" id="venus" class="slide">
+        <img src="images/type-specimen-images2.png" alt="earth" id="earth" class="slide">
+        <img src="images/type-specimen-images3.png" alt="mars" id="mars" class="slide">
+        <img src="images/type-specimen-images4.png" alt="jupiter" id="jupiter" class="slide">
+        <img src="images/type-specimen-images5.png" alt="saturn" id="saturn" class="slide">
+        <img src="images/type-specimen-images6.png" alt="uranus" id="uranus" class="slide">
+        <img src="images/type-specimen-images7.png" alt="neptune" id="neptune" class="slide">
+    </div>
+    <button class="slideshow-button prev" data-slideshow-button="prev">
         <img src="images/left-arrow.svg">
     </button>
-    <button class="slide-arrow" id="slide-arrow-next">
+    <button class="slideshow-button next" data-slideshow-button="next">
         <img src="images/right-arrow.svg">
     </button>
-    
     
     <div id="planetinfo">        
        
