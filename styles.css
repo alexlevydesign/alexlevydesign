@@ -302,6 +302,25 @@ margin-left: 10%;
 .BrainstormingImage {
     max-width: 800px !important
 }
+.BackupLink {
+    margin-bottom: 1em;
+    display: block;
+    margin-right: 5%;
+    line-height: 150%;
+    
+}
+.BackupLink span {
+    font-weight: 600;
+}
+.BackupLink:active, .BackupLink:hover, .BackupLink:visited, .BackupLink:link {
+    text-decoration: underline;
+    color: #0000ee;
+    
+    
+}
+.BackupLink:active, .BackupLink:hover {
+    color: #00005e;
+}
 
 /* ADHD TASK APP PAGE END */
 
