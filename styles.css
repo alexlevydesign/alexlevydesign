@@ -732,10 +732,10 @@ padding: 0;
     flex-direction: row;
 }
 .Bold {
-    font-weight: 700;
+    font-weight: 700 !important;
 }
 .SemiBold {
-    font-weight: 600;
+    font-weight: 600 !important;
 }
 .Light {
     font-weight: 300 !important;
