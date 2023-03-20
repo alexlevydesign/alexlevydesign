@@ -40,11 +40,12 @@ nav {
     margin-bottom: 56px;
     background: #ffffff;
     box-sizing: border-box;
+    align-items: center;
 
 }
 .NavBarLinks {
     position: absolute;
-    top: 50px;
+    
     right: 20%;
     font-weight: 700;
     font-size: 18px;
@@ -220,6 +221,7 @@ line-height: 24px;
 letter-spacing: 0.03em;
 margin-bottom: 0;
 margin-left: 10%;
+
 }
 .FinalDesignDiv {
     
@@ -509,6 +511,7 @@ header a:link, header a:visited, header a:hover, .header a:active {
     display: flex;
     justify-content: space-between;
     border-bottom: solid 4px #0000ee;
+    align-items: center;
 }
 .ProjectCard:hover {
     background: hsl(240, 100%, 93%);
@@ -621,12 +624,136 @@ form label {
     background: #00005e;
 }
 
+/* START ABOUT SECTION */
+.HeadshotDiv {
+    /*background-color: #0000ee;
+    border-top-left-radius: 64px;
+    border-bottom-left-radius: 64px;
+    padding-left: 25px;
+    padding-bottom: 25px;
+    padding-top: 25px;*/
+    display: flex;
+    
+}
+.Headshot {
+    max-width: 100%;
+    border-top-left-radius: 39px;
+    border-bottom-left-radius: 39px;
+    align-self: center;
+    border: #0000ee solid 8px;
+    border-right: none;
+    overflow: hidden;
+    
+    
+   
+}
+.AboutHeroTextDiv {
+    max-width: 100;
+    
+}
+.AboutHeroText {
+    flex-basis: 100%;
+    padding-right: 3em;
+    margin-top: 0;
+    width: 70%;
+    padding-left: 0;
+    padding-left: 10%;
+    
+}
+.BodyAboutLarge {
+    font-size: 1.5em;
+    line-height: 150%;
+    font-style: normal;
+    font-weight: 500;
+    width: auto;
+    padding-left: 0;
+}
+.LargerText {
+    font-size: 2em;
+    padding-left: 0%;
+}
+.AboutHeroSection {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 0 !important;
+}
+
+.AboutMain {
+    margin-left: 10%;
+    margin-top: 2em;
+}
+.AboutMain h2 {
+    margin-bottom: .5em;
+}
+.AboutMain h4 {
+    margin-top: .5em;
+}
+.AboutMain p {
+font-size: 1em;
+font-style: normal;
+font-weight: 400;
+line-height: 150%;
+width: 60%;
+margin-top: 0px;
+}
+
+.AboutMain .Label {
+   
+    margin-bottom: .1em;
+}
+.AboutMain ul {
+    margin-top: .3em;
+    
+}
+.SkillsCardsParent ul {
+padding: 0;
+}
+.SkillsCardsParent {
+    display: flex;
+    flex-direction: column;
+}
+.SkillCardChild {
+    width: 250px;
+    height: 200px;
+    margin-right: 2em;
+    margin-bottom: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:#fff;
+    border-bottom: #0000ee 4px solid;
+
+}
+.SkillCardChild li {
+    width: auto;
+}
+.SkillsCardsRow1, .SkillsCardsRow2 {
+    display: flex;
+    flex-direction: row;
+}
+.Bold {
+    font-weight: 700;
+}
+.SemiBold {
+    font-weight: 600;
+}
+.Light {
+    font-weight: 300 !important;
+}
+
+/* END ABOUT SECTION */
+
 /* HOME PAGE END */
 
 /* START MOBILE LESS THAN 1200px */
 
 @media only screen and (max-width: 1200px) {
 
+    .BodyAboutLarge {
+        padding-right: 0;
+        
+    }
+    
     .ProjectPageIntro {
         display: block;
         margin-bottom: 2em;
@@ -738,13 +865,31 @@ form label {
 
 @media only screen and (max-width: 800px) {
 
+    .AboutHeroSection {
+        display: block;
+    }
+    .AboutHeroText {
+        width: auto;
+    }
+    .Headshot {
+        border-left: none;
+        border-radius: 0%;
+    }
+    .SkillsCardsParent, .SkillsCardsRow1, .SkillsCardsRow2 {
+        display: block;
+    }
+
+
     .NavBar {
-        display: grid;
-        row-gap: 1em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
     }
     .NavBarLogo {
         height: min-content;
         width: inherit;
+        margin-bottom: 1em;
     }
     .NavBarLogo img {
         width: 150px;
@@ -761,8 +906,7 @@ form label {
         padding-left: 0;
         font-size: .9em;
     }
-    .NavLinkProjects {
-        margin-left: 1.5em;
+    .NavLinkMargin {
         margin-right: 1.5em;
     }
    
@@ -816,9 +960,22 @@ form label {
 /* START MOBILE LESS THAN 480px */
 
 @media only screen and (max-width: 480px) {
+
+    .AboutHeroText {
+        
+        padding-left: 5%;
+        padding-right: 5%;
+        width: auto;
+        margin-top: 0;
+        margin-bottom: 1.5em;
+    }
+    .BodyAboutLarge {
+        padding-left: 0;
+    }
     .NavBar {
-        display: grid;
-        row-gap: 1em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
     .NavBarLogo {
         height: min-content;
@@ -838,8 +995,7 @@ form label {
         padding-left: 0;
         font-size: .9em;
     }
-    .NavLinkProjects {
-        margin-left: 1.5em;
+    .NavLinkMargin {
         margin-right: 1.5em;
     }
     
@@ -1004,6 +1160,27 @@ form label {
 
 /* END MOBILE LESS THAN 480px */
 
+@media only screen and (max-width: 412px) {
+    
+    /* START MOBILE LESS THAN 412px */
+
+    .NavBarLinksChild {
+        display: block;
+        padding-top: 1em;
+    }
+    .BodyAboutLarge {
+        max-width: 100%;
+        padding-right: 0;
+    }
+
+
+
+
+
+
+}
+/* END MOBILE LESS THAN 412px */
+
 /* START MOBILE GREATER THAN 320px */
 
 
@@ -1025,3 +1202,4 @@ form label {
 }
 
 /* END MOBILE GREATER THAN 320px */
+
