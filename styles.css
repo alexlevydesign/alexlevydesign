@@ -304,6 +304,32 @@ margin-left: 10%;
 
 /* ADHD TASK APP PAGE START */
 
+.ResearchCardsParent {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 1em;
+    column-gap: 1em;
+    max-width: 800px;
+}
+
+.ResearchCardChild {
+    width: 300px;
+    height: 150px;
+    margin-right: 2em;
+    margin-bottom: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:#fff;
+    border-bottom: #0000ee 4px solid;
+    padding-left: 1em;
+    padding-right: 1em;
+    justify-content: center;
+}
+.ResearchCardChild p {
+    width: 75%;
+}
+
 .BrainstormingImage {
     max-width: 800px !important
 }
@@ -413,6 +439,69 @@ margin-left: 10%;
     max-width: 70%;
     
 }
+
+.SlideshowParent {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin-bottom: 2em;
+  }
+.SlideshowArrows {
+    text-align: center;
+    
+}
+.SlideshowArrows, .Slide {
+    max-width: 500px;
+}
+  
+  .Slide {
+    display: none;
+  }
+  
+  .prev,
+  .next {
+  
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: #0000ee;
+  }
+  
+  .next {
+    margin-left: .5em;
+  }
+  .prev {
+    margin-right: .5em;
+  }
+  
+  
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {
+      opacity: 0.4;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  .FirstSlide {
+    display: block;
+  }
 
 
 

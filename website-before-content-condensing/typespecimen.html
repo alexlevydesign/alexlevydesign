@@ -21,39 +21,7 @@
     <link href="styles.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <script>
-    let slideIndex = 1;
-showSlides(slideIndex);
-
-document.querySelectorAll(".Slide").style.display = "block"
-
-function plusSlides(n) {
-  showSlides((slideIndex += n));
-}
-
-function showSlides(n) {
-  const slides = document.querySelectorAll(".Slide");
-  const dots = document.querySelectorAll(".dot");
-
-  if (n > slides.length) {
-    slideIndex = 1;
-  }
-  if (n < 1) {
-    slideIndex = slides.length;
-  }
-  for (let i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
-  }
-  slides[slideIndex - 1].style.display = "block";
-  
-}
-
-// Set the display style of the first slide to "block" by default
-const slides = document.querySelectorAll(".slide");
-slides[0].style.display = "block";
-
-    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"> 
 </head>
 <body>
     <a id="skip" href="#content">Skip to Content</a>
@@ -105,44 +73,6 @@ slides[0].style.display = "block";
             <!--
             <iframe src="images/type-specimen.pdf"></iframe>
             -->
-            <div class="SlideshowParent">
-            <div class="Slideshow">
-                <div class="Slide FirstSlide">
-                    <img src="images/type-specimen-images8.png" alt="A page from my type specimen">
-                </div>
-                <div class="Slide">
-                    <img src="images/type-specimen-images.png" alt="A page from my type specimen">
-                </div>
-                <div class="Slide">
-                    <img src="images/type-specimen-images2.png" alt="A page from my type specimen">
-                </div>
-                <div class="Slide">
-                    <img src="images/type-specimen-images3.png" alt="A page from my type specimen">
-                </div>
-                <div class="Slide">
-                    <img src="images/type-specimen-images4.png" alt="A page from my type specimen">
-                </div>
-                <div class="Slide">
-                    <img src="images/type-specimen-images5.png" alt="A page from my type specimen">
-                </div>
-                <div class="Slide">
-                    <img src="images/type-specimen-images6.png" alt="A page from my type specimen">
-                </div>
-                <div class="Slide">
-                    <img src="images/type-specimen-images7.png" alt="A page from my type specimen">
-                </div>
-                
-        
-            </div>
-            <div class="SlideshowArrows">
-                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                <a class="next" onclick="plusSlides(1)">&#10095;</a>
-            </div>
-            </div>
-              
-
-
-            <!--
             <div class="FinalDesignImageGrid">
                 <img src="images/type-specimen-images8.png" alt="A page from my type specimen">
                 <img src="images/type-specimen-images.png" alt="A page from my type specimen">
@@ -152,9 +82,8 @@ slides[0].style.display = "block";
                 <img src="images/type-specimen-images5.png" alt="A page from my type specimen">
                 <img src="images/type-specimen-images6.png" alt="A page from my type specimen">
                 <img src="images/type-specimen-images7.png" alt="A page from my type specimen">
-            </div>  
-            -->
-
+            </div>
+           
         </div>
         <h2>View Other Projects</h2>
         <!--
