@@ -175,8 +175,11 @@ h3 {
     align-items: center;
     margin-bottom: .5em;
 }
+.ProjectPageIntro .BodyLarge {
+    width: 35%;
+}
 .ProjectPageIntro img {
-    max-width: 400px;
+    max-width: 300px;
 }
 .ProjectPageButton {
     margin-left: 10%;
@@ -226,8 +229,8 @@ margin-bottom: 0;
 margin-left: 10%;
 
 }
-.FinalDesignDiv {
-    
+.FinalDesignDiv img {
+    border: #000 solid 2px;
 }
 .OtherProjectsGrid {
     display: grid;
@@ -328,6 +331,7 @@ margin-left: 10%;
 }
 .ResearchCardChild p {
     width: 75%;
+    margin-bottom: 0;
 }
 
 .BrainstormingImage {
@@ -352,7 +356,23 @@ margin-left: 10%;
 .BackupLink:active, .BackupLink:hover {
     color: #00005e;
 }
-
+.ADHDTaskAppSlideShow img {
+    width: 250px;
+    height: auto;
+}
+.ADHDGrid img {
+    width: 250px;
+    height: auto;
+    margin-right: 0px;
+    
+}
+.ADHDGrid {
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    padding: 2em;
+    
+    
+}
 /* ADHD TASK APP PAGE END */
 
 /* DIGITAL CAT MAGAZINE PAGE START */
@@ -439,6 +459,9 @@ margin-left: 10%;
     max-width: 70%;
     
 }
+.Slideshow, .FirstSlide {
+    padding-bottom: 0em;
+}
 
 .SlideshowParent {
     display: flex;
@@ -448,10 +471,15 @@ margin-left: 10%;
   }
 .SlideshowArrows {
     text-align: center;
+    display: flex;
+    justify-content: center;
     
 }
 .SlideshowArrows, .Slide {
     max-width: 500px;
+}
+.SlideShowArrowChild {
+
 }
   
   .Slide {
@@ -462,7 +490,7 @@ margin-left: 10%;
   .next {
   
     width: auto;
-    margin-top: -22px;
+    
     padding: 16px;
     color: #fff;
     font-weight: bold;
@@ -471,6 +499,7 @@ margin-left: 10%;
     border-radius: 8px;
     cursor: pointer;
     background-color: #0000ee;
+    display: block;
   }
   
   .next {
@@ -640,7 +669,7 @@ margin-bottom: 0;
     color: #0000ee;
     font-weight: 500;
     margin-right: .2em;
-    
+            
 }
 .ArrowIcon {
     width: 37px;
@@ -657,6 +686,7 @@ margin-bottom: 0;
 .ProjectImageHome img {
     max-height: 300px;
     
+    
 
 
     
@@ -670,7 +700,7 @@ input, textarea {
     font-family: inherit;
 }
 .FormInfoDiv input {
-    width: 30vw;
+    width: 65.5vw;
     height: 2.5em;
     border: #000000 1px solid;
     margin-top: 2px;
@@ -679,14 +709,15 @@ form label {
     font-size: 16px;
     margin-bottom: 1em;
     font-weight: 500;
+    
 }
 .FormInfoDiv {
-    display: flex;
+   
     
 
 }
 .FormChild {
-    margin-left: 5vw;
+   margin-top: 1em;
 }
 .FormMessageDiv textarea {
     width: 65.5vw;
@@ -850,6 +881,9 @@ padding: 0;
         display: block;
         margin-bottom: 2em;
     }
+    .ProjectPageIntro .BodyLarge {
+        width: 75%;
+    }
     .ProjectTag {
         margin-left: 10%;
     }
@@ -947,6 +981,19 @@ padding: 0;
     .NavBar {
         display: flex;
     }
+    .ADHDGrid img {
+        width: 200px;
+        height: auto;
+        margin-right: 0px;
+        
+    }
+    .ADHDGrid {
+        display: grid;
+        grid-template-columns: repeat(3, 4fr);
+        padding: 2em;
+        
+        
+    }
     
 }
 
@@ -1001,7 +1048,23 @@ padding: 0;
     .NavLinkMargin {
         margin-right: 1.5em;
     }
-   
+    .ResearchCardsParent {
+        display: block;
+    }
+    
+   .ADHDGrid img {
+    width: 150px;
+    height: auto;
+    margin-right: 0px;
+    
+}
+.ADHDGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    padding: 2em;
+    
+    
+}
 
 }
 
