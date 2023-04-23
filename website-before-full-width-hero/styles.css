@@ -1,0 +1,1432 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: #E9E9E9;
+    margin: 0 auto;
+
+}
+.ShiftRight {
+    margin-left: 10vw;
+    width: 75%;
+    margin-top: 0;
+}
+#skip {
+    background-color: #fff;
+    border: 1px solid black;
+    padding: 2px;
+    position: absolute;
+    left: -999px;
+    color: #000;
+    z-index: 1;
+}
+#skip:focus {
+    left: 10px;
+    top: 30px;
+}
+
+.NavBarLogo, .NavBarLogo img {
+    height: 100px;
+  
+}
+
+nav {
+    position: sticky;
+    top: 0;
+}
+.NavLinkHome {
+    display: none !important;
+}
+.NavBar {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    vertical-align: middle;
+    padding-left: 10%;
+    padding-right: 10%;
+    border-bottom: 3px solid #0000ee;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-bottom: 56px;
+    background: #ffffff;
+    box-sizing: border-box;
+    align-items: center;
+
+}
+.NavBarLinks {
+    position: absolute;
+    
+    right: 20%;
+    font-weight: 700;
+    font-size: 18px;
+    justify-content: space-between;
+    
+}
+.NavBarLinks a:link, .NavBarLinks a:visited, .NavBarLinks a:hover, .NavBarLinks a:active {
+    text-decoration: none;
+}
+.NavBarLinks a:link, .NavBarLinks a:visited {
+    color: #0000ee;
+}
+.NavBarLinks a:hover, .NavBarLinks a:active {
+    color: #00005e;
+    text-decoration: underline;
+}
+
+
+.NavBarLinksChild {
+    display: inline;
+    padding-left: 100px;
+
+}
+
+
+
+h1 {
+    font-size: 2.441em;
+    font-weight: 700;
+    font-style: normal;
+    padding-left: 10%;
+    width:fit-content;
+    border-bottom: 6px solid #0000ee;
+    padding-bottom: 4px;
+    margin-right: 10%;
+    margin-top: .3em;
+    
+    
+}
+
+h2, .heading2 {
+    color: #0000ee;
+    font-size: 1.953em;
+    margin-bottom: 16px;
+    font-weight: 700;
+
+}
+
+h3, .heading3 {
+    color: #0000ee;
+    font-size: 1.563em;
+    font-weight: 600;
+}
+h4 {
+    font-size: 1.1em;
+    font-weight: 600;
+}
+.heading4 {
+    font-size: 1.1em;
+    font-weight: 500;
+}
+.Button {
+    padding: 12px 20px;
+    background: #0000ee;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 1em;
+    line-height: 150%;
+    font-style: normal;
+    width: 40%;
+    text-align: center;
+    }
+.Button:active, .Button:hover {
+    background: #00005e;
+}
+
+.BodyText {
+    font-size: 1em;
+    line-height: 150%;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    width: 60%;
+}
+.BoldBodyText {
+    font-weight: 600;
+    color: #0000ee;
+    font-size: larger;
+}
+.BodyLargeHome {
+    font-size: 1.5em;
+    line-height: 150%;
+    font-style: normal;
+    font-weight: 500;
+    padding-right: 10%;
+    padding-left: 10%;
+    width: auto;
+    
+}
+
+.BodyLarge {
+    font-size: 1.5em;
+    line-height: 150%;
+    font-style: normal;
+    font-weight: 500;
+    padding-right: 10%;
+    padding-left: 10%;
+    width: 50%;
+}
+.SmallText {
+    font-weight: 300 !important;
+}
+
+/* Use border-bottom with padding-bottom instead of .Line
+.Line {
+    width: 506px;
+    height: 6px;
+    background: #0000ee;
+    margin: 0;
+    margin-right: 10%;
+    
+}
+*/
+
+/* PROJECT PAGE START */
+
+.ProjectPageIntro {
+    display: flex;
+    align-items: top;
+    margin-bottom: .5em;
+    width: 100%;
+    justify-content: space-between;
+}
+.ProjectPageIntro h1, .ProjectPageIntro .ProjectTag {
+    padding-left: 10vw;
+}
+.ProjectPageIntro .BodyLarge {
+    width: 35%;
+}
+.ProjectPageIntro img {
+    max-width: 800px;
+}
+.ProjectPageIntro h2 {
+    margin-bottom: .3em;
+}
+.ProjectPageIntro .heading3 {
+    margin-bottom: .25em;
+}
+.RolesParent {
+    margin-bottom: 1em;
+    list-style-type: none;
+    font-weight: 300;
+font-size: 1em;
+display: flex;
+flex-direction: row;
+
+margin-left: 10vw;
+gap: 1em;
+
+
+}
+.RolesParent .heading4, .RolesParent p {
+    margin-top: 0;
+    
+}
+.InlineBullet {
+    font-weight: 600;
+}
+.RolesText {
+    margin-top: 0;
+}
+.RolesText {
+    font-size: 1.1em;
+    font-weight: 500;
+}
+.ProjectToolsDiv {
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+.ProjectInfo h2 {
+    margin-top: 0px;
+}
+.ProjectInfo {
+  
+}
+.ProjectPageIntro h2 {
+    margin-left: 10vw;
+}
+.ProjectPageButton {
+    margin-left: 10vw;
+}
+.ProjectPageButtonDiv {
+    margin-top: 2em;
+}
+.ProjectPageH2 {
+    margin-top: 2em;
+}
+.ProjectMainContent {
+    margin-left: 10%;
+    margin-top: 2em;
+}
+.ProjectMainContent p {
+    font-size: 1em;
+    line-height: 150%;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    width: 60%;
+}
+.ProjectMainContent .heading4 {
+    font-size: 1.1em;
+    font-weight: 500;
+}
+li {
+    font-size: 1em;
+    line-height: 150%;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    width: 60%;
+    margin-top: .3em;
+}
+.ProjectMainContent h3 {
+    color: #000000;
+    font-weight: 450;
+}
+.ProjectMainContent p {
+    margin-top: 0px;
+}
+.ProjectMainContent h2, .ProjectMainContent h3, .ProjectMainContent h4 {
+    margin-bottom: 8px;
+}
+.ProjectMainContent img {
+    max-width: 350px;
+}
+.ProjectTag {
+font-weight: 300;
+font-size: 1.4em;
+line-height: 24px;
+font-variant: small-caps;
+margin-bottom: 0;
+
+
+}
+.FinalDesignDiv img {
+    border: #000 solid 2px;
+}
+.OtherProjectsGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 1em;
+    column-gap: 1em;
+    max-width: 800px;
+    
+}
+.OtherProjectsGrid a:active, .OtherProjectsGrid a:hover, .OtherProjectsGrid a:visited, .OtherProjectsGrid a:link {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #0000ee;
+    width: 350px;
+    height: 1.5em;    
+}
+.OtherProjectsGrid a:active, .OtherProjectsGrid a:hover {
+    background: #00005e;
+}
+.OtherProjectsChild {
+    
+}
+
+.OtherProject {
+    text-decoration: none;
+    color: #000000;
+    padding: 16px;
+    width: 350px;
+    background: #ffffff;
+    margin-bottom: 8px;
+    border-bottom: solid 4px #0000ee;
+    text-align: center;
+    
+}
+.OtherProjectLink {
+    text-decoration: none;
+}
+.OtherProject p {
+    width: 100%;
+}
+.OtherProjectName {
+    color: #0000ee;
+    font-size: 1.4em !important;
+    font-weight: 600 !important;
+    margin-bottom: 0;
+}
+.OtherProjectTag {
+    font-weight: 300 !important;
+    font-size: 1.25em !important;
+    line-height: 24px !important;
+    letter-spacing: 0.03em !important;
+    margin-bottom: 8px !important;
+}
+
+.CurrentOtherProject {
+    display: none;
+    background: #bdbdbd;
+}
+.OtherProject:active, .OtherProject:hover {
+    text-decoration: none;
+    background: hsl(240, 100%, 93%);
+    
+}
+
+.OtherProject:visited, .OtherProject:link {
+    background: #0000ee;
+    text-decoration: none;
+}
+.OtherProjectImage {
+    max-height: 200px;
+    margin-top: .5em;
+}
+/* PROJECT PAGE END */
+
+/* ADHD TASK APP PAGE START */
+
+.ResearchCardsParent {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 1em;
+    column-gap: 1em;
+    max-width: 800px;
+}
+
+.ResearchCardChild {
+    width: 300px;
+    height: 150px;
+    margin-right: 2em;
+    margin-bottom: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:#fff;
+    border-bottom: #0000ee 4px solid;
+    padding-left: 1em;
+    padding-right: 1em;
+    justify-content: center;
+}
+.ResearchCardChild p {
+    width: 75%;
+    margin-bottom: 0;
+}
+
+.BrainstormingImage {
+    max-width: 800px !important
+}
+.BackupLink {
+    margin-bottom: 1em;
+    display: block;
+    margin-right: 5%;
+    line-height: 150%;
+    
+}
+.BackupLink span {
+    font-weight: 600;
+}
+.BackupLink:active, .BackupLink:hover, .BackupLink:visited, .BackupLink:link {
+    text-decoration: underline;
+    color: #0000ee;
+    
+    
+}
+.BackupLink:active, .BackupLink:hover {
+    color: #00005e;
+}
+.ADHDTaskAppSlideShow img {
+    width: 250px;
+    height: auto;
+}
+.ADHDGrid img {
+    width: 250px;
+    height: auto;
+    margin-right: 0px;
+    
+}
+.ADHDGrid {
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    padding: 2em;
+    
+    
+}
+/* ADHD TASK APP PAGE END */
+
+/* DIGITAL CAT MAGAZINE PAGE START */
+
+.DigitalCatMagazineIntroImage {
+    
+}
+.DigitalCatMagazinePersona {
+    max-width: 800px !important;
+}
+.CatMagazineDesignSolution {
+    display: flex;
+    align-items: baseline;
+    margin-top: 1em;
+    flex-wrap: wrap;
+}
+.PrintCatMagazineDesignSolutionChild{
+    flex: 1;
+    margin-right: 1em;
+}
+.UICatMagazineDesignSolutionChild {
+    flex: 1;
+}
+.UICatMagazineDesignSolutionChild img {
+    max-width: 100px;
+}
+
+/* DIGITAL CAT MAGAZINE PAGE END */
+
+/*TWITTER FILTER FEATURE PAGE START */
+
+
+
+/*TWITTER FILTER FEATURE PAGE END */
+
+/*DOWN SYNDROME INFOGRAPHICS PAGE START */
+.DownSyndromeInfographicsImages {
+    display: grid;
+  
+
+}
+/*
+.DownSyndromeInfographicsGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 8px;
+    column-gap: 8px;
+    margin-left: 16px;
+}
+*/
+
+.DownSyndromeInfographicsImages img {
+    max-width: 70%;
+    margin-right: 8px;
+}
+
+
+
+
+
+/*DOWN SYNDROME INFOGRAPHICS PAGE END */
+
+/*TYPE SPECIMEN PAGE START */
+
+.Quote {
+    font-style: italic;
+    margin-left: 1em;
+    margin-top: .75em;
+    display: block;
+    width: 75%;
+    border-left: 2px solid #0000ee;
+    padding-left: 1em;
+    font-weight: 400;
+}
+.FinalDesignDiv img {
+    max-width: 500px;
+    margin-bottom: 2em;
+    
+}
+.FinalDesignImageGrid {
+    display: grid;
+    
+}
+.FinalDesignImageGrid img {
+    max-width: 70%;
+    
+}
+.Slideshow, .FirstSlide {
+    padding-bottom: 0em;
+}
+
+.SlideshowParent {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin-bottom: 3em;
+  }
+.SlideshowArrows {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    
+}
+.SlideshowArrows, .Slide {
+    max-width: 500px;
+}
+.SlideShowArrowChild {
+
+}
+  
+  .Slide {
+    display: none;
+  }
+  
+  .prev,
+  .next {
+  
+    width: auto;
+    
+    padding: 16px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: #0000ee;
+    display: block;
+  }
+  
+  .next {
+    margin-left: .5em;
+  }
+  .prev {
+    margin-right: .5em;
+  }
+  
+  
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {
+      opacity: 0.4;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  .FirstSlide {
+    display: block;
+  }
+
+
+
+/*TYPE SPECIMEN PAGE END */
+
+/* FOOTER START */
+
+footer {
+    background: #ffffff;
+    margin-top: 56px;
+    padding: 32px;
+    border-top: 3px solid #0000ee;
+
+}
+footer a:hover, footer a:active {
+    color: #00005e;
+}
+.FooterDiv {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    font-size: .9em;
+    
+}
+.PhoneNumber {
+    margin-left: 2em;
+    margin-right: 2em;
+}
+.LinkedinLogo {
+    width: 40px;
+}
+
+
+/* FOOTER END */
+/* HOME PAGE START */
+
+.HeroSectionHome {
+
+}
+
+
+
+
+
+.HeroSectionHome .Button {
+    margin-left: 5%;
+    margin-right: 10%;
+    height: min-content;
+    
+}
+.HeroHomeName {
+    
+}
+.HeroHomeSubheading {
+    background: #ffffff;
+    width: 100%;
+    margin-left: 0%;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin-top: 40px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+
+}
+.HeroHomeDescription {
+    padding-left: 10%;
+    margin-bottom: 32px;
+    width: 60%;
+}
+
+header a:link, header a:visited, header a:hover, .header a:active {
+    text-decoration: none;
+}
+
+
+#Projects {
+    margin-left: 10%;
+    margin-top: 32px;
+}
+#Projects a:link, #Projects a:visited, #Projects a:hover, #Projects a:active {
+    text-decoration: none;
+    color: #000000;
+}
+.ProjectGrid {
+    /*
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    */
+}
+.ProjectCard {
+    background: #ffffff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    flex-basis: 100%;
+    margin-bottom: 32px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid 4px #0000ee;
+    align-items: center;
+}
+.ProjectCard:hover {
+    background: hsl(240, 100%, 93%);
+}
+.ProjectInfoHome {
+    padding-left: 5%;
+    width: 100%;
+
+}
+.ProjectHomeTag {
+font-weight: 300;
+font-size: 1.25em;
+line-height: 24px;
+letter-spacing: 0.03em;
+margin-bottom: 0;
+}
+
+.ProjectHomeName {
+    margin-top: .7em;
+    margin-bottom: .5em;
+}
+.ProjectHomeDescription {
+    margin-top: 0;
+    width: 90%;
+}
+#ProjectCard p {
+    padding-left: 0%;
+}
+.ProjectLink {
+    display: flex;
+}
+.SeeProject {
+    font-size: 1.15em;
+    color: #0000ee;
+    font-weight: 500;
+    margin-right: .2em;
+            
+}
+.ArrowIcon {
+    width: 37px;
+}
+.ProjectImageHome {
+    display: flex;
+    justify-content: center;
+    width: 700px;
+    margin-right: 5%;
+
+    
+    
+}
+.ProjectImageHome img {
+    max-height: 300px;
+    
+    
+
+
+    
+}
+
+#Contact {
+    margin-left: 10%;
+    margin-top: 32px;
+}
+input, textarea {
+    font-family: inherit;
+}
+.FormInfoDiv input {
+    width: 65.5vw;
+    height: 2.5em;
+    border: #000000 1px solid;
+    margin-top: 2px;
+}
+form label {
+    font-size: 16px;
+    margin-bottom: 1em;
+    font-weight: 500;
+    
+}
+.FormInfoDiv {
+   
+    
+
+}
+.FormChild {
+   margin-top: 1em;
+}
+.FormMessageDiv textarea {
+    width: 65.5vw;
+    height: 10em;
+    border: #000000 1px solid;
+    margin-top: 2px;
+
+}
+.FormMessageDiv {
+    margin-top: 1em;
+}
+.SubmitButton {
+    padding: 12px 30px;
+    background: #0000ee;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 1em;
+    line-height: 150%;
+    font-style: normal;
+    margin-top: 1em;
+    text-align: center;
+    cursor: pointer;
+}
+.SubmitButton:active, .SubmitButton:hover {
+    background: #00005e;
+}
+
+/* START ABOUT SECTION */
+.HeadshotDiv {
+    /*background-color: #0000ee;
+    border-top-left-radius: 64px;
+    border-bottom-left-radius: 64px;
+    padding-left: 25px;
+    padding-bottom: 25px;
+    padding-top: 25px;*/
+    display: flex;
+    
+}
+.Headshot {
+    max-width: 100%;
+    border-top-left-radius: 39px;
+    border-bottom-left-radius: 39px;
+    align-self: center;
+    border: #0000ee solid 8px;
+    border-right: none;
+    overflow: hidden;
+    
+    
+   
+}
+.AboutHeroTextDiv {
+    max-width: 100;
+    
+}
+.AboutHeroText {
+    flex-basis: 100%;
+    padding-right: 3em;
+    margin-top: 0;
+    width: 70%;
+    padding-left: 0;
+    padding-left: 10%;
+    
+}
+.BodyAboutLarge {
+    font-size: 1.5em;
+    line-height: 150%;
+    font-style: normal;
+    font-weight: 500;
+    width: auto;
+    padding-left: 0;
+}
+.LargerText {
+    font-size: 2em;
+    padding-left: 0%;
+}
+.AboutHeroSection {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 0 !important;
+}
+
+.AboutMain {
+    margin-left: 10%;
+    margin-top: 2em;
+}
+.AboutMain h2 {
+    margin-bottom: .5em;
+}
+.AboutMain h4 {
+    margin-top: .5em;
+}
+.AboutMain p {
+font-size: 1em;
+font-style: normal;
+font-weight: 400;
+line-height: 150%;
+width: 60%;
+margin-top: 0px;
+}
+
+.AboutMain .Label {
+   
+    margin-bottom: .1em;
+}
+.AboutMain ul {
+    margin-top: .3em;
+    
+}
+.SkillsCardsParent ul {
+padding: 0;
+}
+.SkillsCardsParent {
+    display: flex;
+    flex-direction: column;
+}
+.SkillCardChild {
+    width: 250px;
+    height: 200px;
+    margin-right: 2em;
+    margin-bottom: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:#fff;
+    border-bottom: #0000ee 4px solid;
+
+}
+.SkillCardChild li {
+    width: auto;
+}
+.SkillsCardsRow1, .SkillsCardsRow2 {
+    display: flex;
+    flex-direction: row;
+}
+.Bold {
+    font-weight: 700 !important;
+}
+.SemiBold {
+    font-weight: 600 !important;
+}
+.Light {
+    font-weight: 300 !important;
+}
+
+/* END ABOUT SECTION */
+
+/* HOME PAGE END */
+
+/* START MOBILE LESS THAN 1200px */
+
+@media only screen and (max-width: 1200px) {
+
+    .BodyAboutLarge {
+        padding-right: 0;
+        
+    }
+    
+    .ProjectPageIntro {
+        display: block;
+        margin-bottom: 2em;
+    }
+    .ProjectPageIntro .BodyLarge {
+        width: 75%;
+    }
+    .ProjectTag {
+        margin-left: 10%;
+    }
+    .BodyLarge {
+        padding-left: 10%;
+        width: auto;
+        padding-right: 10%;
+        font-size: 1.5em;
+        line-height: 150%;
+    }
+    .ProjectPageIntro img {
+        margin-left: 10%;
+        max-width: 300px;
+        margin-right: 10%;
+        
+    }
+    .ProjectPageButton {
+        margin-left: 10%;
+    }
+    .ProjectMainContent {
+        margin-left: 10%;
+    }
+    li {
+        font-size: 1em;
+        line-height: 150%;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%;
+        width: 90%;
+    }
+    .FinalDesignDiv iframe {
+        width: 99%;
+        height: 600px;
+    }
+    .FinalDesignDiv img {
+        max-width:100%;
+        margin-bottom: 2em;
+    }
+    .FinalDesignDiv {
+        margin-right: 10%;
+    }
+    .BrainstormingImage {
+        max-width: 100% !important;
+    }
+    .DigitalCatMagazineIntroImage {
+        max-height: 500px !important;
+    }
+    .DigitalCatMagazinePersona {
+        max-width: 100% !important;
+    }
+    .CatMagazineDesignSolution {
+        display: block;
+    }
+    .PrintCatMagazineDesignSolutionChild {
+        margin-bottom: 1.5em;
+    }
+    .PrintCatMagazineDesignSolutionChild img {
+        max-width: 90%;
+    }
+    .UICatMagazineDesignSolutionChild img {
+        max-width: 150px;
+    }
+    .DownSyndromeInfographicsImages {
+        display: block;
+    }
+    .OtherProjectsGrid {
+        display: block;
+    }
+    .OtherProject {
+        text-decoration: none;
+        color: #000000;
+        padding: 16px;
+        width: 50%;
+        background: #ffffff;
+        margin-bottom: 8px;
+        border-bottom: solid 4px #0000ee;
+        text-align: center;
+        margin-bottom: 1.5em;
+    }
+    .OtherProject img {
+        max-width: 100%;
+    }
+    h1 {
+       
+    }
+    .HeroHomeName {
+       
+    }
+    .NavBarLinks {
+        margin-left: 5%;
+    }
+    .NavBarLinksChild {
+        padding-left: 2em;
+    }
+    .NavBar {
+        display: flex;
+    }
+    .ADHDGrid img {
+        width: 200px;
+        height: auto;
+        margin-right: 0px;
+        
+    }
+    .ADHDGrid {
+        display: grid;
+        grid-template-columns: repeat(3, 4fr);
+        padding: 2em;
+        
+        
+    }
+    
+}
+
+
+/* END MOBILE LESS THAN 1200px */
+
+/* START MOBILE LESS THAN 800px */
+
+@media only screen and (max-width: 800px) {
+
+    .AboutHeroSection {
+        display: block;
+    }
+    .AboutHeroText {
+        width: auto;
+    }
+    .Headshot {
+        border-left: none;
+        border-radius: 0%;
+    }
+    .SkillsCardsParent, .SkillsCardsRow1, .SkillsCardsRow2 {
+        display: block;
+    }
+
+
+    .NavBar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+    }
+    .NavBarLogo {
+        height: min-content;
+        width: inherit;
+        margin-bottom: 1em;
+    }
+    .NavBarLogo img {
+        width: 150px;
+        height: auto;
+    }
+    .NavBarLinks {
+        display: inline;
+        position:initial;
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .NavBarLinksChild {
+        padding-right: 0;
+        padding-left: 0;
+        font-size: .9em;
+    }
+    .NavLinkMargin {
+        margin-right: 1.5em;
+    }
+    .ResearchCardsParent {
+        display: block;
+    }
+    
+   .ADHDGrid img {
+    width: 150px;
+    height: auto;
+    margin-right: 0px;
+    
+}
+.ADHDGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    padding: 2em;
+    
+    
+}
+
+}
+
+/* END MOBILE LESS THAN 800px */
+
+
+/* START MOBILE LESS THAN 950px */
+@media only screen and (max-width: 950px) {
+
+.ProjectGrid {
+    width: 100%;
+    display: block;
+}
+.ProjectCard {
+    display: block;
+}
+.ProjectInfoHome {
+    width: initial;
+}
+.ProjectImageHome {
+    width: inherit;
+    margin-right: 0;
+    justify-content: left;
+    margin-top: 1em;
+}
+.ProjectImageHome img {
+    max-width: 70%;
+    padding-left: 5%;
+}
+.HeroHomeSubheading {
+    display: block;
+    padding-bottom: 2em;
+    padding-top: 1em;
+}
+.HeroHomeSubheading p {
+    width: 70%;
+    margin-bottom: 1.5em;
+}
+.HeroHomeSubheading .Button {
+    margin-left: 10%;
+}
+
+}
+
+/* END MOBILE LESS THAN 950px */
+
+
+/* START MOBILE LESS THAN 480px */
+
+@media only screen and (max-width: 480px) {
+
+    .AboutHeroText {
+        
+        padding-left: 5%;
+        padding-right: 5%;
+        width: auto;
+        margin-top: 0;
+        margin-bottom: 1.5em;
+    }
+    .BodyAboutLarge {
+        padding-left: 0;
+    }
+    .NavBar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .NavBarLogo {
+        height: min-content;
+        width: inherit;
+    }
+    .NavBarLogo img {
+        width: 150px;
+        height: auto;
+    }
+    .NavBarLinks {
+        display: inline;
+        position:initial;
+        margin-right: 0;
+    }
+    .NavBarLinksChild {
+        padding-right: 0;
+        padding-left: 0;
+        
+    }
+    .NavLinkMargin {
+        margin-right: 1.5em;
+    }
+    
+    .ProjectGrid {
+        width: 100%;
+        display: block;
+    }
+    .ProjectCard {
+        display: block;
+    }
+    .ProjectInfoHome {
+        width: initial;
+    }
+    .ProjectImageHome {
+        width: inherit;
+        margin-right: 0;
+        margin-top: 1em;
+    }
+    .ProjectImageHome img {
+        max-height: 200px;
+    }
+    #Projects {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    #Contact {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    h1 {
+        padding-left: 5%;
+    }
+    .HeroHomeSubheading {
+        display: block;
+        padding-bottom: 2em;
+        padding-top: 1em;
+    }
+    .BodyLargeHome {
+        padding-left: 5%;
+        padding-right: 5%;
+        width: auto;
+        margin-top: 0;
+        margin-bottom: 1.5em;
+    }
+    .HeroSectionHome .Button {
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 0;
+    }
+    .HeroHomeDescription {
+        width: 90%;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .FooterDiv {
+        display: grid;
+        justify-content: center;
+        justify-items: center;
+        row-gap: 1em;
+    }
+    .FooterDiv a {
+        display: block;
+    }
+    .PhoneNumber {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+/* Start <480px project page */
+    .ProjectMainContent {
+        margin-left: 5%;
+        margin-top: 2em;
+    }
+    .ProjectMainContent p {
+        width: 90%;
+    }
+    .OtherProjectsGrid {
+        display: block;
+    }
+    .OtherProject {
+        margin-bottom: 1.5em;
+    }
+    .ProjectPageIntro {
+        display: block;
+        margin-bottom: 2em;
+    }
+    .ProjectTag {
+        margin-left: 5%;
+    }
+    .BodyLarge {
+        padding-left: 5%;
+        width: auto;
+        padding-right: 5%;
+        font-size: 1.1em;
+        line-height: 160%;
+    }
+    .ProjectPageIntro img {
+        margin-left: 5%;
+        max-width: 90%;
+        margin-right: 5%;
+    }
+    .ProjectPageButton {
+        margin-left: 5%;
+    }
+    li {
+        font-size: 1em;
+        line-height: 150%;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%;
+        width: 90%;
+    }
+    .FinalDesignDiv iframe {
+        width: 99%;
+        height: 600px;
+    }
+    .FinalDesignDiv img {
+        max-width:100%;
+        margin-bottom: 2em;
+    }
+    .FinalDesignDiv {
+        margin-right: 5%;
+    }
+    .BrainstormingImage {
+        max-width: 100% !important;
+    }
+    .DigitalCatMagazineIntroImage {
+        max-height: 500px !important;
+    }
+    .DigitalCatMagazinePersona {
+        max-width: 100% !important;
+    }
+    .CatMagazineDesignSolution {
+        display: block;
+    }
+    .PrintCatMagazineDesignSolutionChild {
+        margin-bottom: 1.5em;
+    }
+    .PrintCatMagazineDesignSolutionChild img {
+        max-width: 90%;
+    }
+    .UICatMagazineDesignSolutionChild img {
+        max-width: 150px;
+    }
+    .DownSyndromeInfographicsImages {
+        display: block;
+    }
+    
+
+
+
+/* End <480px project page */
+
+
+
+
+}
+
+
+
+
+
+/* END MOBILE LESS THAN 480px */
+
+@media only screen and (max-width: 412px) {
+    
+    /* START MOBILE LESS THAN 412px */
+
+    .NavBarLinksChild {
+        
+        padding-top: 1em;
+    }
+    .BodyAboutLarge {
+        max-width: 100%;
+        padding-right: 0;
+    }
+
+
+
+
+
+
+}
+/* END MOBILE LESS THAN 412px */
+
+/* START MOBILE GREATER THAN 320px */
+
+
+@media only screen and (max-width: 479px) {
+
+.OtherProject {
+    text-decoration: none;
+    color: #000000;
+    padding: 16px;
+    width: 250px;
+    background: #ffffff;
+    margin-bottom: 8px;
+    border-bottom: solid 4px #0000ee;
+    text-align: center;
+}
+
+
+
+}
+
+/* END MOBILE GREATER THAN 320px */
+
