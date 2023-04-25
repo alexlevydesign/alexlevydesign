@@ -1577,6 +1577,7 @@ line-height: 140%;
     }
     .ResearchCardChild {
         width: auto;
+        margin-right: 0;
     }
 }
 
