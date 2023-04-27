@@ -1278,7 +1278,7 @@ line-height: 140%;
     }
     .NavBarLogo img {
         padding: 8px;
-        height: 88px;
+        height: 72px;
     }
     .NavBarLinks {
         display: inline;
@@ -1403,11 +1403,11 @@ line-height: 140%;
     .NavBarLogo {
         height: min-content;
         width: inherit;
-        padding-bottom: .5em;
+        padding-bottom: 0px;
     }
     .NavBarLogo img {
        padding: 8px;
-        height: 88px;
+        height: 64px;
     }
     .NavBarLinks {
         display: inline;
