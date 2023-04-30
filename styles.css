@@ -1237,7 +1237,11 @@ line-height: 140%;
    .ProjectHeroImg img {
     max-width: 100%;
    }
+   .AboutHeroSection .Button {
+    width: auto;
 }
+}
+
 
 /* START MOBILE LESS THAN 800px */
 
@@ -1313,6 +1317,9 @@ line-height: 140%;
     padding: 2em;
     
     
+}
+.AboutHeroSection .Button {
+    margin-bottom: 1em;
 }
 
 }
@@ -1608,6 +1615,9 @@ line-height: 140%;
    
     .ResearchCardChild img {
         max-width: 200px;
+    }
+    .OtherProject {
+        height: 500px !important;
     }
     
 
