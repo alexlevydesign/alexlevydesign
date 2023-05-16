@@ -924,7 +924,20 @@ footer a:hover, footer a:active {
     justify-content: end;
     align-items: center;
     font-size: .9em;
+}
+.FooterDivParent {
+    display: flex;
+    justify-content: space-between;
+}
+.FooterMessage {
+    margin-left: calc(10vw - 2em);
     
+}
+.FooterMessage span {
+    width: 300px !important;
+}
+.LogoFooter {
+    max-width: 16px;
 }
 .PhoneNumber {
     margin-left: 2em;
