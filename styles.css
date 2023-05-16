@@ -90,6 +90,11 @@
 .PostcardImgOld {
     max-width: 60%;
 }
+i {
+    font-weight: 300;
+    display: block;
+    margin-top: .5em;
+}
 
 @media only screen and (max-width: 800px) {
     .ProcessList {
