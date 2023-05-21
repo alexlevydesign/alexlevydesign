@@ -145,6 +145,11 @@ i {
         margin-left: 10vw;
         margin-right: 0;
     }
+    .ProjectHeroImg .DigitalCatMagazineIntroImage {
+        padding-right: 0 !important;
+        margin-left: 10vw;
+        max-width: 350px;
+      }
 }
 @media only screen and (max-width: 480px) {
     .FinalFilmPoster {
@@ -168,6 +173,11 @@ i {
     .PostcardImgOld {
         max-width: 100%;
     }
+    .ProjectHeroImg .DigitalCatMagazineIntroImage {
+        padding-right: 0 !important;
+        margin-left: 5vw;
+        max-width: 300px;
+      }
 }
 @media only screen and (max-width: 480px) {
     .FinalDesignDiv .FinalFilmPoster {
@@ -187,6 +197,9 @@ i {
     .StampMockup {
         max-width: 250px !important;
     }
+    .ProjectHeroImg .DigitalCatMagazineIntroImage {
+        max-width: 275px;
+      }
 }
 
 
@@ -699,7 +712,8 @@ margin-bottom: 0;
 }
 
 .BrainstormingImage {
-    max-width: 800px !important
+    max-width: 800px !important;
+    border: #000 solid 2px;
 }
 .BackupLink {
     margin-bottom: 1em;
@@ -741,8 +755,9 @@ margin-bottom: 0;
 
 /* DIGITAL CAT MAGAZINE PAGE START */
 
-.CatMagazineImage {
-    min-width: 75%;
+.ProjectHeroImg .DigitalCatMagazineIntroImage {
+  padding-right: 2em;
+  max-width: 350px;
 }
 .DigitalCatMagazinePersona {
     max-width: 800px !important;
@@ -759,9 +774,11 @@ margin-bottom: 0;
 }
 .UICatMagazineDesignSolutionChild {
     flex: 1;
+    
 }
 .UICatMagazineDesignSolutionChild img {
     max-width: 100px;
+ 
 }
 
 /* DIGITAL CAT MAGAZINE PAGE END */
@@ -930,7 +947,7 @@ footer a:hover, footer a:active {
     justify-content: space-between;
 }
 .FooterMessage {
-    margin-left: calc(10vw - 2em);
+    margin-right: auto;
     
 }
 .FooterMessage span {
@@ -1347,7 +1364,7 @@ line-height: 140%;
         max-width: 100% !important;
     }
     .DigitalCatMagazineIntroImage {
-        max-height: 500px !important;
+        max-width: 400px !important ;
     }
     .DigitalCatMagazinePersona {
         max-width: 100% !important;
@@ -1570,7 +1587,12 @@ line-height: 140%;
 .HeroHomeSubheading .Button {
     margin-left: 10%;
 }
-
+.FooterDiv {
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    row-gap: 1em;
+}
 }
 
 /* END MOBILE LESS THAN 950px */
@@ -1586,11 +1608,13 @@ line-height: 140%;
     .InlineBullet {
         display: none;
     }
+    .DigitalCatMagazineIntroImage {
+        max-width: 350px !important ;
+    }
 
 /* START MOBILE LESS THAN 480px */
 
 @media only screen and (max-width: 480px) {
-
     .ShiftRight {
         margin-left: 5vw;
     }
@@ -1775,7 +1799,7 @@ line-height: 140%;
         max-width: 100% !important;
     }
     .DigitalCatMagazineIntroImage {
-        max-height: 500px !important;
+        max-width: 275px !important;
     }
     .DigitalCatMagazinePersona {
         max-width: 100% !important;
@@ -1839,6 +1863,9 @@ line-height: 140%;
     }
     .OtherProject {
         height: 500px !important;
+    }
+    .DigitalCatMagazineIntroImage {
+        max-width: 275px !important ;
     }
     
 
