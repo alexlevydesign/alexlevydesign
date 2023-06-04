@@ -1,3 +1,7 @@
+
+
+
+
 /* VIS 327 */
 
 .lightbox-container {
@@ -626,6 +630,7 @@ margin-bottom: 0;
     margin-bottom: 8px;
     border-bottom: solid 6px #0000ee;
     text-align: center;
+    padding-bottom: 2em !important;
     
 }
 .OtherProject p, .OtherProject h3 {
@@ -789,14 +794,14 @@ margin-bottom: 0;
 
 /*TWITTER FILTER FEATURE PAGE END */
 
-/*DOWN SYNDROME INFOGRAPHICS PAGE START */
-.DownSyndromeInfographicsImages {
+/*CAT CAFE PAGE START */
+.catcafepostsImages {
     display: grid;
   
 
 }
 /*
-.DownSyndromeInfographicsGrid {
+.catcafepostsGrid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     row-gap: 8px;
@@ -805,16 +810,21 @@ margin-bottom: 0;
 }
 */
 
-.DownSyndromeInfographicsImages img {
+.catcafepostsImages img {
     max-width: 70%;
     margin-right: 8px;
+}
+
+.CatCafeHero {
+    max-width: 350px !important;
+    padding-right: 2em;
 }
 
 
 
 
 
-/*DOWN SYNDROME INFOGRAPHICS PAGE END */
+/*CAT CAFE PAGE END */
 
 /*TYPE SPECIMEN PAGE START */
 
@@ -1381,11 +1391,12 @@ line-height: 140%;
     .UICatMagazineDesignSolutionChild img {
         max-width: 150px;
     }
-    .DownSyndromeInfographicsImages {
+    .catcafepostsImages {
         display: block;
     }
     .OtherProjectsGrid {
         /*display: block;*/
+        
     }
     .OtherProject {
       height: 450px;
@@ -1464,6 +1475,12 @@ line-height: 140%;
    }
    .AboutHeroSection .Button {
     width: auto;
+}
+.CatCafeHero {
+    padding-right: 0;
+    margin-left: 10vw;
+    max-width: 300px !important;
+    margin-bottom: .5em;
 }
 }
 
@@ -1816,7 +1833,7 @@ line-height: 140%;
     .UICatMagazineDesignSolutionChild img {
         max-width: 150px;
     }
-    .DownSyndromeInfographicsImages {
+    .catcafepostsImages {
         display: block;
     }
     .SkillCardChild {
@@ -1866,6 +1883,9 @@ line-height: 140%;
     }
     .DigitalCatMagazineIntroImage {
         max-width: 275px !important ;
+    }
+    .CatCafeHero {
+        max-width: 250px !important;
     }
     
 
