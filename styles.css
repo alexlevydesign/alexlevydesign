@@ -334,7 +334,9 @@ nav {
 
 }
 
-
+.CallOut {
+    background-color: #0000ee;
+}
 
 h1 {
     font-size: 2.441em;
