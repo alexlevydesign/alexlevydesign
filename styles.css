@@ -265,7 +265,7 @@ header {
         /* padding-right: 2em; */
         /* padding-top: 2em; */
         padding: 16px;
-        height: 96px;
+        height: 80px;
     
 }
 .NavBarLogo a {
@@ -538,6 +538,7 @@ gap: 1em;
 }
 .ProjectPageButton {
     margin-left: 10vw;
+    
 }
 .ProjectPageButton {
     margin-top: 1em;
@@ -604,6 +605,24 @@ margin-bottom: 0;
 
 .FinalDesignDiv img {
     border: #000 solid 2px;
+}
+#FinalDesignADHDTaskApp {
+    scroll-margin-top: 16vh;
+}
+#FinalDesignDigitalCatMagazine {
+    scroll-margin-top: 16vh;
+}
+#FinalDesignTwitterFilterFeature {
+    scroll-margin-top: 16vh;
+}
+#FinalDesignTypeSpecimen {
+    scroll-margin-top: 16vh;
+}
+#FinalDesignCatCafePosts {
+    scroll-margin-top: 16vh;
+}
+#FinalDesignFilmPoster {
+    scroll-margin-top: 16vh;
 }
 .OtherProjectsGrid {
     display: flex;
@@ -1031,6 +1050,7 @@ header a:link, header a:visited, header a:hover, .header a:active {
 #Projects {
     margin-left: 10%;
     margin-top: 32px;
+    scroll-margin-top: 16vh;
 }
 #Projects a:link, #Projects a:visited, #Projects a:hover, #Projects a:active {
     text-decoration: none;
@@ -1121,6 +1141,7 @@ margin-bottom: -8px;
 #Contact {
     margin-left: 10%;
     margin-top: 32px;
+    scroll-margin-top: 16vh;
 }
 input, textarea {
     font-family: inherit;
@@ -1532,7 +1553,7 @@ line-height: 140%;
     }
     .NavBarLogo img {
         padding: 8px;
-        height: 80px;
+        height: 72px;
     }
     .NavBarLinks {
         display: inline;
@@ -1718,6 +1739,7 @@ line-height: 140%;
     #Projects {
         margin-left: 5%;
         margin-right: 5%;
+        
     }
     #Contact {
         margin-left: 5%;
