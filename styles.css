@@ -1,6 +1,37 @@
+/* Other Project Cards Switcher */
+#OptimalAssessmentOtherProjectCard {
 
+}
+#ADHDTaskAppOtherProjectCard {
 
+}
+#DigitalCatMagazineOtherProjectCard {
 
+}
+#TwitterFilterFeatureOtherProjectCard {
+
+}
+#TypeSpecimenOtherProjectCard {
+
+}
+#CuseHacksBrandingOtherProjectCard {
+
+}
+#CatCafePostsOtherProjectCard {
+
+}
+#FilmPosterOtherProjectCard {
+
+}
+
+.CuseHacksBanner {
+ max-width: 70%;
+ margin-bottom: .25em !important;
+}
+.CuseHacksStickerFinalDesign {
+    border: none !important;
+    margin-top: .25em !important;
+}
 
 /* VIS 327 */
 
@@ -54,8 +85,17 @@
     display: flex;
     gap: 2em;
 }
+.ProcessListLarge {
+    display: flex;
+    gap: 2em;
+    flex-direction: column;
+}
 .ProcessImage img {
     max-width: 60% !important;
+}
+.ProcessImageLarge {
+    max-width: 60% !important;
+    border:#000 2px solid;
 }
 .FinalFilmPoster {
     max-width: 300px !important;
@@ -435,6 +475,11 @@ h4 {
     font-weight: 300 !important;
 }
 
+.CuseHacksStickerOtherProject {
+    max-width: 300px;
+    padding-top: 1em;
+}
+
 /* Use border-bottom with padding-bottom instead of .Line
 .Line {
     width: 506px;
@@ -595,10 +640,13 @@ li {
 }
 .ProjectTag {
 font-weight: 300;
-font-size: 1.6em;
+font-size: 1.45em;
 line-height: 24px;
-font-variant: small-caps;
 margin-bottom: 0;
+margin-bottom: 4px !important;
+    text-transform: lowercase;
+
+    font-variant: small-caps;
 }
  
   
@@ -622,6 +670,12 @@ margin-bottom: 0;
     scroll-margin-top: 16vh;
 }
 #FinalDesignFilmPoster {
+    scroll-margin-top: 16vh;
+}
+#FinalDesignCuseHacks {
+    scroll-margin-top: 16vh;
+}
+#FinalDesignOptimalAssessment {
     scroll-margin-top: 16vh;
 }
 .OtherProjectsGrid {
@@ -684,7 +738,7 @@ margin-bottom: 0;
     margin-bottom: 4px !important;
     text-transform: lowercase;
     font-weight: 300 !important;
-    font-size: 1.4em !important;
+    font-size: 1.2em !important;
     line-height: 24px;
     font-variant: small-caps;
 }
@@ -713,6 +767,15 @@ margin-bottom: 0;
     margin-top: .5em;
 }
 /* PROJECT PAGE END */
+
+/* OPTIMAL ASSESSMENT PAGE START */
+
+.OptimalAssessmentHeroImage {
+    max-width: 400px !important;
+    margin-right: 4em;
+}
+
+/* OPTIMAL ASSESSMENT PAGE END */
 
 /* ADHD TASK APP PAGE START */
 
@@ -820,6 +883,8 @@ margin-bottom: 0;
 
 
 /*TWITTER FILTER FEATURE PAGE END */
+
+
 
 /*CAT CAFE PAGE START */
 .catcafepostsImages {
@@ -985,6 +1050,7 @@ footer a:hover, footer a:active {
 }
 .FooterMessage {
     margin-right: auto;
+    font-weight: 500;
     
 }
 .FooterMessage span {
@@ -1334,6 +1400,16 @@ padding: 0;
 
 @media only screen and (max-width: 1200px) {
 
+    .CuseHacksBanner {
+        max-width: 70% !important;
+        margin-bottom: .25em !important;
+       }
+
+    .OptimalAssessmentHeroImage {
+        max-width: 325px !important;
+        margin-right: 4em;
+    }
+
     .BodyAboutLarge {
         padding-right: 0;
         
@@ -1466,6 +1542,12 @@ line-height: 140%;
 /* END MOBILE LESS THAN 1200px */
 
 @media only screen and (max-width: 1110px) {
+
+    .OptimalAssessmentHeroImage {
+        max-width: 260px !important;
+        margin-right: 1em;
+    }
+
     .OtherProject {
         width: 375px;
     }
@@ -1511,13 +1593,20 @@ line-height: 140%;
     max-width: 300px !important;
     margin-bottom: .5em;
 }
+.OptimalAssessmentHeroImage {
+    max-width: 350px !important;
+    margin-left: 10vw;
+   
+}
 }
 
 
 /* START MOBILE LESS THAN 800px */
 
 @media only screen and (max-width: 800px) {
-
+    .CuseHacksStickerOtherProject {
+        max-width: 350px;
+    }
     .OtherProject {
         width: 80% ;
     }
@@ -1661,6 +1750,9 @@ line-height: 140%;
 /* START MOBILE LESS THAN 480px */
 
 @media only screen and (max-width: 480px) {
+    .CuseHacksStickerOtherProject {
+        max-width: 275px;
+    }
     .ShiftRight {
         margin-left: 5vw;
     }
@@ -1895,6 +1987,15 @@ line-height: 140%;
 @media only screen and (max-width: 412px) {
     
     /* START MOBILE LESS THAN 412px */
+
+    .OptimalAssessmentHeroImage {
+        max-width: 275px !important;
+        margin-left: 10vw;
+       
+    }
+    .CuseHacksStickerOtherProject {
+        max-width: 225px;
+    }
 
     .NavBarLinksChild {
         
