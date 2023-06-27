@@ -1399,10 +1399,12 @@ padding: 0;
 
 
 @media only screen and (max-width: 1200px) {
-
     .CuseHacksBanner {
         max-width: 70% !important;
         margin-bottom: .25em !important;
+       }
+       .CuseHacksPoster {
+        max-width: 50% !important;
        }
 
     .OptimalAssessmentHeroImage {
@@ -1542,7 +1544,9 @@ line-height: 140%;
 /* END MOBILE LESS THAN 1200px */
 
 @media only screen and (max-width: 1110px) {
-
+    .CuseHacksPoster {
+        max-width: 55% !important;
+       }
     .OptimalAssessmentHeroImage {
         max-width: 260px !important;
         margin-right: 1em;
@@ -1604,6 +1608,10 @@ line-height: 140%;
 /* START MOBILE LESS THAN 800px */
 
 @media only screen and (max-width: 800px) {
+
+    .CuseHacksPoster {
+        max-width: 80% !important;
+       }
     .CuseHacksStickerOtherProject {
         max-width: 350px;
     }
@@ -1750,6 +1758,9 @@ line-height: 140%;
 /* START MOBILE LESS THAN 480px */
 
 @media only screen and (max-width: 480px) {
+    .CuseHacksPoster {
+        max-width: 100% !important;
+       }
     .CuseHacksStickerOtherProject {
         max-width: 275px;
     }
@@ -2023,6 +2034,10 @@ line-height: 140%;
 }
 @media only screen and (max-width: 480px) {
 
+
+    .CuseHacksBanner {
+        max-width: 100% !important;
+       }
     .OtherProject {
         height: 475px;
     }
