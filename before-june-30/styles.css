@@ -24,118 +24,6 @@
 
 }
 
-
-@media only screen and (max-width: 2000px) {
-    .OptimalAssessmentSmallScreenFinalImages {
-        display: none !important;
-    }
-    .OptimalAssessmentFinalImages .Slide {
-        max-width: 750px !important;
-    }
-    .OptimalAssessmentImage img {
-        max-width: 750px !important;
-        border: none !important;
-        margin: 0 !important;
-        padding: 0 !important;
-    }
-    .SlideshowArrows {
-        max-width: 750px !important;
-    }
-    .OptimalAssessmentProcessImages img {
-        max-width: 60% !important;
-    }
-}
-@media only screen and (max-width: 1000px) {
-    .OptimalAssessmentFinalImages .Slide {
-        max-width: 600px !important;
-    }
-    .OptimalAssessmentImage img {
-        max-width: 600px !important;
-        border: none !important;
-        margin: 0 !important;
-        padding: 0 !important;
-    }
-    .SlideshowArrows {
-        max-width: 600px !important;
-    }
-    .OptimalAssessmentProcessImages img {
-        max-width: 90% !important;
-    }
-    
-
-}
-@media only screen and (max-width: 775px) {
-    .OptimalAssessmentFinalImages .Slide {
-        max-width: 500px !important;
-    }
-    .OptimalAssessmentImage img {
-        max-width: 500px !important;
-        border: none !important;
-        margin: 0 !important;
-        padding: 0 !important;
-    }
-    .SlideshowArrows {
-        max-width: 500px !important;
-    }
-}
-@media only screen and (max-width: 675px) {
-    .OptimalAssessmentFinalImages .Slide {
-        max-width: 425px !important;
-    }
-    .OptimalAssessmentImage img {
-        max-width: 425px !important;
-        border: none !important;
-        margin: 0 !important;
-        padding: 0 !important;
-    }
-    .SlideshowArrows {
-        max-width: 425px !important;
-    }
-
-}
-@media only screen and (max-width: 550px) {
-    .OptimalAssessmentSmallScreenFinalImages {
-        display: block !important;
-        padding-top: 2em;
-    }
-    .OptimalAssessmentSlideShow {
-        display: none !important;
-    }
-    .OptimalAssessmentProcessImages img {
-        max-width: 100% !important;
-    }
-}
-.OptimalAssessmentFinalImages .Slide {
-    max-width: 750px;
-}
-.OptimalAssessmentFinalImages {
-    padding-top: 2em;
-}
-.ImageNumber {
-    margin: 0;
-}
-.OptimalAssessmentProcessImages {
-    display: flex;
-    flex-direction: column;
-    gap: 2em;
-}
-
-
-.OptimalAssessmentImage {
-  max-height: 400px;
-  overflow-y: scroll;
-  overflow-x: hidden;
-  border: #000 2px solid;
-  max-width: fit-content !important;
-}
-.OptimalAssessmentImage img {
-    max-width: 750px;
-    border: none !important;
-    margin: 0 !important;
-    padding: 0 !important;
-}
-
-
 .TypeSpecimenSlideshow img {
     max-width: 600px !important;
 }
@@ -1659,10 +1547,6 @@ line-height: 140%;
 /* END MOBILE LESS THAN 1200px */
 
 @media only screen and (max-width: 1110px) {
-    .ProjectMainContent p {
-        width: 80%;
-    }
-
     .CuseHacksPoster {
         max-width: 55% !important;
        }

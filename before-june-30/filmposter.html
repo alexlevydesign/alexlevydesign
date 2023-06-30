@@ -24,13 +24,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Type Specimen</title>
+    <title>Film Poster</title>
     <link rel="icon" type="image/x-icon" href="favicon.ico">
     <link href="styles.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <script>
+        //Slider code start
     let slideIndex = 1;
 showSlides(slideIndex);
 
@@ -61,6 +62,30 @@ function showSlides(n) {
 const slides = document.querySelectorAll(".slide");
 slides[0].style.display = "block";
 
+//Lightbox code start
+
+const lightboxContainer = document.querySelector('.lightbox-container');
+const lightboxBox = document.querySelector('.lightbox-box');
+const lightboxBackground = document.querySelector('.lightbox-background');
+const lightboxClose = document.querySelector('.lightbox-close');
+const lightboxTrigger = document.querySelector('.lightbox-trigger');
+
+// Open the lightbox when the image is clicked
+lightboxTrigger.addEventListener('click', function() {
+  lightboxContainer.style.display = 'flex';
+  lightboxBox.innerHTML = '<img src="' + this.src + '">';
+});
+
+// Close the lightbox when the close button is clicked
+lightboxClose.addEventListener('click', function() {
+  lightboxContainer.style.display = 'none';
+});
+
+// Close the lightbox when the background is clicked
+lightboxBackground.addEventListener('click', function() {
+  lightboxContainer.style.display = 'none';
+});
+
     </script>
 </head>
 <body>
@@ -88,7 +113,7 @@ slides[0].style.display = "block";
         <div class="ProjectPageIntro">
             <div class="ProjectPageHeroHeadingDiv">
                 <p class="ProjectTag">graphic design</p>
-                                <h1>Type Specimen</h1>
+                                <h1>Film Poster</h1>
                             </div>
                 <div class="ProjectHeroInfoAndImage">
                     <div class="ProjectInfo">
@@ -99,8 +124,6 @@ slides[0].style.display = "block";
                                 <span class="heading4">Designer</span>
                                 <span class="InlineBullet">&bull;</span>
                                 <span class="heading4">Content writer</span>
-                                <span class="InlineBullet">&bull;</span>
-                                <span class="heading4">Researcher</span>
                         
                         </div>
                         </div>
@@ -108,21 +131,26 @@ slides[0].style.display = "block";
                             <h2 class="heading3">Tools</h2>
                             <div class="RolesParent">
                                     <span class="heading4">Adobe InDesign</span>
+                                    <span class="InlineBullet">&bull;</span>
+                                <span class="heading4">Adobe Photoshop</span>
+                                <span class="InlineBullet">&bull;</span>
+                                <span class="heading4">Adobe Illustrator</span>
                             
                             </div>
                         </div>
                         <div class="OutcomeHeroDiv">
                             <h2 class="heading3">Outcome</h2>
-        <p class="heading4 ShiftRight">My professor commented on the progression of this design:<br><span class="Quote">"What I appreciate about this design is your concept. You had it from the very beginning and when it didn't quite work at the beginning, instead of trying something else, you worked on it to make it work"</span>
+        <p class="heading4 ShiftRight">While this poster was not used officially for the film, I got to work with a client and distill their film into a poster that tells a story and makes people want to see the film.<br>
+        <i>*note: this is not the actual film poster*</i>
         </p>
                         </div>
                         <div>
-                            <a href="#FinalDesignTypeSpecimen" class="Button ProjectPageButton">View final design</a>
+                            <a href="#FinalDesignFilmPoster" class="Button ProjectPageButton">View final design</a>
                         </div>
                         
                     </div>
                     <div class="ProjectHeroImg img">
-                        <img src="images/TypeSpecimenPDFs/MockupSmaller.png" alt="A page from my IBM Plex type specimen">
+                        <img class="FinalFilmPoster" src="images/vis327/film-poster/film-poster-final.jpg" alt="My final film poster">
                     </div>
                 </div>
                 
@@ -143,81 +171,47 @@ slides[0].style.display = "block";
     </header>
     <main class="ProjectMainContent">
         <h2 class="ProjectPageH2">The situation</h2>
-        <p>I designed a 16-page typographic specimen that showcased the unique features, uses, and background of the typeface IBM Plex Serif. Since the project was for my typographic design class, one of the constraints I had to follow was that I was not allowed to use images in my design. I used type handling, layout, and color to create a unique design that showcased the versatility and unique features of IBM Plex Serif.</p>
-        <h2>Why IBM Plex Serif?</h2>
-        <p>Over the summer, I learned about IBM's new corporate typeface superfamily, IBM Plex, as a participant in the design track of the IBM Accelerate Program. I chose the serif variation because it was intriguing how it had influences from older typographic styles yet still reflected IBM as a modern technology company.
+        <p>I designed a poster for an independent film about the nuclear testing that happened in New Mexico and its effects on the community there today.</p>
+        <h2>My concept</h2>
+        <p>One theme of the film that stuck out to me was how New Mexico was forgotten about, ignored, and lied to by the government. I wanted to capture that in my poster, while also emphasizing the incredible people fighting for justice.
         </p>
-        <h2>Research and content</h2>
-        <p>Before starting on the design, I had to do background research on IBM Plex Serif in order to write the content contained in my type specimen. This proved to be a little challenging since the typeface is fairly new, so there wasn't a ton of information on it compared to older typefaces.</p>
         <h2>The design process</h2>
-        <h3>“It's boring”</h3>
-        <p>After I designed my first draft, my professor commented that the design reflected IBM because it was pretty boring. While I disagreed with her assessment of IBM being a boring company (the IBM Accelerate Program showed me otherwise), I agreed that my first draft was pretty boring. The critique from my professor and my classmates helped me in designing my future drafts to better reflect how interesting IBM and its typeface actually are.</p>
-        <h3>Focusing on a final design</h3>
-        <p>One thing that helped me improve my design was to focus on a key message. IBM describes the IBM Plex family as reflecting the company's mission of connecting “mankind and machine.” I noticed specific features of the typeface that reflected that value, so I leaned into that with my design.</p>
-        <h3>Design decisions</h3>
-        
-        <ul>
-            <li class="ListItemParent">I used large punctuation marks as dominant elements on some pages to create visual interest and draw the eye into specific parts of the layout. This also helped to showcase IBM Plex Serif's unique punctuation marks.
-                <!--
- <img class="ProcessImage" src="images/ProcessImages/TypeSpecimenPunctuationExample.png" alt="A spread from my type specimen showing the asterisks and quotation marks from the IBM Plex Serif typeface being used as dominant elements in my design.">
-                -->
-               </li>
-            <li>Some visual elements and motifs I repeated throughout my design, such as the blue lines (representative of the bars in IBM's logo). These lines helped to bring cohesiveness to the design of my type specimen, while also serving specific purposes in their individual usage.</li>
-        </ul> 
-        <!--
-            <div class="ResearchCardsParent">
-            <div class="ResearchCardChild"><p>I used large punctuation marks as dominant elements on some pages to create visual interest and draw the eye into specific parts of the layout. This also helped to showcase IBM Plex Serif's unique punctuation marks.</p><img class="ProcessImage" src="images/ProcessImages/TypeSpecimenPunctuationExample.png" alt="A spread from my type specimen showing the asterisks and quotation marks from the IBM Plex Serif typeface being used as dominant elements in my design."></div>
-            <div class="ResearchCardChild"><p>Some visual elements and motifs I repeated throughout my design, such as the blue lines (representative of the bars in IBM's Logo). These lines helped to bring cohesiveness to the design of my type specimen, while also serving specific purposes in their individual usage.</p><img class="ProcessImage" src="images/ProcessImages/TypeSpecimenLinesExample.png" alt="A spread from my type specimen showing lines being used as elements in my design"></div>
-        </div>
-        -->
-       
-        <h2>Outcome</h2>
-        <p class="heading4">My professor commented on the progression of this design:<br><span class="Quote">"What I appreciate about this design is your concept. You had it from the very beginning and when it didn't quite work at the beginning, instead of trying something else, you worked on it to make it work"</span>
+        <h3>Iteration</h3>
+        <p> I went through multiple different versions of my poster before I arrived at a final design.
         </p>
-        <h2 id="FinalDesignTypeSpecimen">Final design</h2>
+        <div class="ProcessList">
+            <img class="ProcessImage" src="images/vis327/film-poster/filmposter-v114.jpg" alt="The first iteration of my film poster">
+            <img class="ProcessImage" src="images/vis327/film-poster/film-poster-v2.jpg" alt="The second iteration of my film poster">
+            <img class="ProcessImage" src="images/vis327/film-poster/film-poster-v3.jpg" alt="The third iteration of my film poster">
+        </div>
+        <h3>The U.S. has an odd shape!</h3>
+        <p>Laying out the poster was surprisingly difficult because the shape of the United States (which contained my collage) is very irregular, with lots of curves and jagged edges. This led to odd gaps of trapped space, which made the balance of the poster feel messy. To fix this, I made the United States very large and positioned it to take up most of the poster so that area around New Mexico was the focal point. This allowed me to utilize the trapped space to draw attention to the bottom left corner, which is where I put the text.</p>
+        <h3>Design decisions</h3>
+        <ul>
+            <li>Applying some light color correction to the images to make them blend well together.</li>
+            <li>Giving the United States outline an outer glow effect that corresponds to the orange from the photo with the candles. This made it look as if the candles were illuminating the collage.</li>
+        </ul>
+        <h2 class="heading3">Outcome</h2>
+        <p class="heading4">While this poster was not used officially for the film, I got to work with a client and distill their film into a poster that tells a story and makes people want to see the film. </span>
+        </p>
+        
+        <h2 id="FinalDesignFilmPoster">Final design</h2>
+        
         <div class="FinalDesignDiv">
+            <img class="lightbox-trigger FinalFilmPoster" src="images/vis327/film-poster/film-poster-final.jpg" alt="My final film poster">
+
+<div class="lightbox-container">
+  <div class="lightbox-box"></div>
+  <div class="lightbox-background">
+    <button class="lightbox-close">&times;</button>
+  </div>
+</div>
+
+            
             <!--
             <iframe src="images/type-specimen.pdf"></iframe>
             -->
-            <div class="SlideshowParent TypeSpecimenSlideshow">
-            <div class="Slideshow TypeSpecimenSlideshow">
-                <div class="Slide FirstSlide">
-                    <img src="images/type-specimen-images8.png" alt="A page from my type specimen">
-                </div>
-                <div class="Slide">
-                    <img src="images/type-specimen-images.png" alt="A page from my type specimen">
-                </div>
-                <div class="Slide">
-                    <img src="images/type-specimen-images2.png" alt="A page from my type specimen">
-                </div>
-                <div class="Slide">
-                    <img src="images/type-specimen-images3.png" alt="A page from my type specimen">
-                </div>
-                <div class="Slide">
-                    <img src="images/type-specimen-images4.png" alt="A page from my type specimen">
-                </div>
-                <div class="Slide">
-                    <img src="images/type-specimen-images5.png" alt="A page from my type specimen">
-                </div>
-                <div class="Slide">
-                    <img src="images/type-specimen-images6.png" alt="A page from my type specimen">
-                </div>
-                <div class="Slide">
-                    <img src="images/type-specimen-images7.png" alt="A page from my type specimen">
-                </div>
-                
-        
-            </div>
-            <div class="SlideshowArrows">
-                <div class="SlideshowArrowChild">
-                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                </div>
-                <div class="SlideShowArrowChild">
-                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
-                </div>
-                
-            </div>
-            </div>
+           
               
 
 
@@ -285,7 +279,7 @@ slides[0].style.display = "block";
             </div>
         </a>
     </div>
-    <div id="TypeSpecimenOtherProjectCard" class="CurrentOtherProject">
+    <div id="TypeSpecimenOtherProjectCard">
         <a class="OtherProjectLink" href="typespecimen.html">
         <div class="OtherProject">
             <p class="OtherProjectTag">Graphic Design</p>
@@ -315,7 +309,7 @@ slides[0].style.display = "block";
         </div>
     </a>
     </div>
-    <div id="FilmPosterOtherProjectCard">
+    <div id="FilmPosterOtherProjectCard" class="CurrentOtherProject">
     <a class="OtherProjectLink" href="filmposter.html">
     <div class="OtherProject">
         <p class="OtherProjectTag">Graphic Design</p>
