@@ -1,0 +1,33 @@
+<svg width="1440" height="662" viewBox="0 0 1440 662" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="1440" height="662" fill="#A38A89" fill-opacity="0.15"/>
+<text fill="black" xml:space="preserve" style="white-space: pre" font-family="Noto Sans" font-size="32" font-weight="600" letter-spacing="0em"><tspan x="142" y="50.416">Add topics</tspan></text>
+<rect x="142.5" y="72.5" width="1019" height="47" fill="white" stroke="black"/>
+<path d="M1162 72H1290C1294.42 72 1298 75.5817 1298 80V112C1298 116.418 1294.42 120 1290 120H1162V72Z" fill="black"/>
+<text fill="white" xml:space="preserve" style="white-space: pre" font-family="Noto Sans" font-size="16" font-weight="bold" letter-spacing="0em"><tspan x="1200" y="102.208">Add</tspan></text>
+<text fill="white" xml:space="preserve" style="white-space: pre" font-family="Font Awesome 6 Free" font-size="20" font-weight="900" letter-spacing="0em"><tspan x="1242" y="103.5">add</tspan></text>
+<rect x="142" y="132" width="229" height="30" rx="15" fill="#A38A89" fill-opacity="0.15"/>
+<text fill="black" xml:space="preserve" style="white-space: pre" font-family="Noto Sans" font-size="16" letter-spacing="0em"><tspan x="150" y="153.208">The American Revolution</tspan></text>
+<g opacity="0.6">
+<text fill="black" xml:space="preserve" style="white-space: pre" font-family="Font Awesome 6 Free" font-size="20" font-weight="900" letter-spacing="0em"><tspan x="350" y="154.5">close</tspan></text>
+</g>
+<rect x="142" y="170" width="166" height="30" rx="15" fill="#A38A89" fill-opacity="0.15"/>
+<text fill="black" xml:space="preserve" style="white-space: pre" font-family="Noto Sans" font-size="16" letter-spacing="0em"><tspan x="150" y="191.208">The Constitution</tspan></text>
+<g opacity="0.6">
+<text fill="black" xml:space="preserve" style="white-space: pre" font-family="Font Awesome 6 Free" font-size="20" font-weight="900" letter-spacing="0em"><tspan x="287" y="192.5">close</tspan></text>
+</g>
+<rect x="142" y="208" width="261" height="30" rx="15" fill="#A38A89" fill-opacity="0.15"/>
+<text fill="black" xml:space="preserve" style="white-space: pre" font-family="Noto Sans" font-size="16" letter-spacing="0em"><tspan x="150" y="229.208">Federalism &#38; Anti-Federalism</tspan></text>
+<g opacity="0.6">
+<text fill="black" xml:space="preserve" style="white-space: pre" font-family="Font Awesome 6 Free" font-size="20" font-weight="900" letter-spacing="0em"><tspan x="382" y="230.5">close</tspan></text>
+</g>
+<rect x="142" y="246" width="112" height="30" rx="15" fill="#A38A89" fill-opacity="0.15"/>
+<text fill="black" xml:space="preserve" style="white-space: pre" font-family="Noto Sans" font-size="16" letter-spacing="0em"><tspan x="150" y="267.208">Congress</tspan></text>
+<g opacity="0.6">
+<text fill="black" xml:space="preserve" style="white-space: pre" font-family="Font Awesome 6 Free" font-size="20" font-weight="900" letter-spacing="0em"><tspan x="233" y="268.5">close</tspan></text>
+</g>
+<rect x="142" y="284" width="120" height="30" rx="15" fill="#A38A89" fill-opacity="0.15"/>
+<text fill="black" xml:space="preserve" style="white-space: pre" font-family="Noto Sans" font-size="16" letter-spacing="0em"><tspan x="150" y="305.208">Presidents</tspan></text>
+<g opacity="0.6">
+<text fill="black" xml:space="preserve" style="white-space: pre" font-family="Font Awesome 6 Free" font-size="20" font-weight="900" letter-spacing="0em"><tspan x="241" y="306.5">close</tspan></text>
+</g>
+</svg>

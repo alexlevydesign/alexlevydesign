@@ -23,9 +23,40 @@
 #FilmPosterOtherProjectCard {
 
 }
+.OptimalAssessmentCardImage {
+    max-height: 300px !important;
+}
+.ADHDTaskAppCardImage {
+    max-height: 300px !important;
+}
+.CatMagazineImage {
+    max-height: 300px !important;
+}
+.TwitterFilterFeatureCardImage {
+    max-height: 225px !important;
+}
+.TypeSpecimenCardImage {
+    max-height: 225px !important;
+}
+.CatCafeImage {
+    max-height: 300px !important;
+}
+.FilmPosterCardImage {
+    max-height: 300px !important;
+}
 
 
 @media only screen and (max-width: 2000px) {
+    .OptimalAssessmentScreenFlowHorizontal, .OptimalAssessmentScreenFlowVertical {
+        list-style: none;
+    }
+    .OptimalAssessmentScreenFlowHorizontal img {
+        max-width: 1000px;
+        display: initial;
+    }
+    .OptimalAssessmentScreenFlowVertical {
+        display: none;
+    }
     .OptimalAssessmentSmallScreenFinalImages {
         display: none !important;
     }
@@ -56,7 +87,7 @@
         padding: 0 !important;
     }
     .SlideshowArrows {
-        max-width: 600px !important;
+        
     }
     .OptimalAssessmentProcessImages img {
         max-width: 90% !important;
@@ -89,14 +120,31 @@
         padding: 0 !important;
     }
     .SlideshowArrows {
-        max-width: 425px !important;
+        max-width: 425px !important; 
+    }
+    .OptimalAssessmentAddListItemImage img {
+        background-color: #fff;
+        max-width: 90vw !important;
+    
+    }
+    .OptimalAssessmentAddListItemImage .LargerImage {
+        max-width: 90vw !important;
     }
 
 }
 @media only screen and (max-width: 550px) {
+    .OptimalAssessmentScreenFlowHorizontal {
+        display: none;
+    }
+    .OptimalAssessmentScreenFlowVertical {
+        display: initial;
+    }
+    .OptimalAssessmentScreenFlowVertical img {
+        max-width: 200px !important;
+    }
     .OptimalAssessmentSmallScreenFinalImages {
         display: block !important;
-        padding-top: 2em;
+        
     }
     .OptimalAssessmentSlideShow {
         display: none !important;
@@ -104,12 +152,30 @@
     .OptimalAssessmentProcessImages img {
         max-width: 100% !important;
     }
+    .OptimalAssessmentWireframe img {
+        max-width: 290px !important;
+    }
+}
+.OptimalAssessmentAddListItemImage img {
+    background-color: #fff;
+    max-width: 80vw;
+
+}
+.OptimalAssessmentAddListItemImage .LargerImage {
+    max-width: 80vw;
+}
+.OptimalAssessmentAddListItemImage {
+    list-style: none;
+    margin-top: .5em;
+}
+.OptimalAssessmentWireframe img {
+    max-width: 400px;
 }
 .OptimalAssessmentFinalImages .Slide {
     max-width: 750px;
 }
 .OptimalAssessmentFinalImages {
-    padding-top: 2em;
+    
 }
 .ImageNumber {
     margin: 0;
@@ -118,6 +184,9 @@
     display: flex;
     flex-direction: column;
     gap: 2em;
+}
+.OptimalAssessmentProcessImages img {
+    background-color: #fff;
 }
 
 
@@ -135,9 +204,9 @@
     padding: 0 !important;
 }
 
-
 .TypeSpecimenSlideshow img {
     max-width: 600px !important;
+    margin-bottom: 0 !important;
 }
 .CuseHacksBanner {
  max-width: 70%;
@@ -146,6 +215,9 @@
 .CuseHacksStickerFinalDesign {
     border: none !important;
     margin-top: .25em !important;
+}
+.CuseHacksSlideShow img {
+    margin-bottom: 0 !important;
 }
 
 /* VIS 327 */
@@ -291,6 +363,9 @@ i {
     }
     .LogosHistoryImg {
         max-width: 200px;
+    }
+    .OtherProject {
+        width: 80vw !important;
     }
 
 }
@@ -707,7 +782,7 @@ gap: 1em;
     margin-top: 0;
 }
 .ProjectMainContent {
-    margin-left: 10%;
+    margin-left: 10vw;
     margin-top: 2em;
 }
 .ProjectMainContent p {
@@ -721,6 +796,11 @@ gap: 1em;
 .ProjectMainContent .heading4 {
     font-size: 1.1em;
     font-weight: 500;
+}
+.ProjectMainContent #Projects {
+   margin-left: initial !important;
+   
+
 }
 li {
     font-size: 1em;
@@ -798,7 +878,7 @@ margin-bottom: 4px !important;
     row-gap: 1em;
     column-gap: 1em;
    flex-wrap: wrap;
-   margin-right: 1em;
+   
    
     
 }
@@ -827,6 +907,7 @@ margin-bottom: 4px !important;
     border-bottom: solid 6px #0000ee;
     text-align: center;
     padding-bottom: 2em !important;
+    
     
 }
 .OtherProject p, .OtherProject h3 {
@@ -1071,7 +1152,8 @@ margin-bottom: 4px !important;
 .SlideshowArrows {
     text-align: center;
     display: flex;
-    justify-content: center;
+    justify-content: left;
+    margin-top: .5em;
     
 }
 .SlideshowArrows, .Slide {
@@ -1232,6 +1314,7 @@ header a:link, header a:visited, header a:hover, .header a:active {
     margin-left: 10%;
     margin-top: 32px;
     scroll-margin-top: 16vh;
+    overflow: hidden;
 }
 #Projects a:link, #Projects a:visited, #Projects a:hover, #Projects a:active {
     text-decoration: none;
@@ -1694,7 +1777,7 @@ line-height: 140%;
 }
 @media only screen and (max-width: 940px) {
     .OtherProject {
-        width: 300px;
+       
     }
     .OtherProjectImage {
         max-width: 100%;
@@ -1735,7 +1818,7 @@ line-height: 140%;
         max-width: 350px;
     }
     .OtherProject {
-        width: 80% ;
+        width: 80vw;
     }
     .AboutHeroSection {
         display: block;
@@ -1900,7 +1983,7 @@ line-height: 140%;
     }
     .OtherProject {
         height: 450px;
-        width: 95% !important;
+        
         margin-right: 0;
     }
     .AboutHeroText {
@@ -2155,7 +2238,27 @@ line-height: 140%;
 
 }
 @media only screen and (max-width: 480px) {
-
+    .OptimalAssessmentCardImage {
+        max-height:250px!important;
+    }
+    .ADHDTaskAppCardImage {
+        max-height: 250px !important;
+    }
+    .CatMagazineImage {
+        max-height: 225px !important;
+    }
+    .TwitterFilterFeatureCardImage {
+        max-height: 225px !important;
+    }
+    .TypeSpecimenCardImage {
+        max-height: 225px !important;
+    }
+    .CatCafeImage {
+        max-height: 200px !important;
+    }
+    .FilmPosterCardImage {
+        max-height: 300px !important;
+    }
 
     .CuseHacksBanner {
         max-width: 100% !important;

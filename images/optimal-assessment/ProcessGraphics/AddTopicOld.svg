@@ -1,0 +1,26 @@
+<svg width="1440" height="744" viewBox="0 0 1440 744" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="1440" height="744" fill="#A38A89" fill-opacity="0.15"/>
+<text fill="black" xml:space="preserve" style="white-space: pre" font-family="Noto Sans" font-size="48" font-weight="bold" letter-spacing="0em"><tspan x="142" y="67.124">Course topics</tspan></text>
+<text fill="black" xml:space="preserve" style="white-space: pre" font-family="Noto Sans" font-size="16" letter-spacing="0em"><tspan x="142" y="98.208">Enter course topics.</tspan></text>
+<rect x="142" y="111" width="125" height="46" rx="8" fill="#008A02"/>
+<text fill="white" xml:space="preserve" style="white-space: pre" font-family="Noto Sans" font-size="16" font-weight="bold" letter-spacing="0em"><tspan x="150" y="140.208">New topic</tspan></text>
+<text fill="white" xml:space="preserve" style="white-space: pre" font-family="Font Awesome 6 Free" font-size="20" font-weight="900" letter-spacing="0em"><tspan x="241" y="141.5">add</tspan></text>
+<text fill="black" xml:space="preserve" style="white-space: pre" font-family="Noto Sans" font-size="32" font-weight="600" letter-spacing="0em"><tspan x="142" y="215.416">Topic</tspan></text>
+<rect x="143" y="234" width="446" height="46" fill="white" stroke="black" stroke-width="2"/>
+<text fill="black" xml:space="preserve" style="white-space: pre" font-family="Noto Sans" font-size="16" font-weight="bold" letter-spacing="0em"><tspan x="142" y="310.208">Add subtopic</tspan></text>
+<text fill="black" xml:space="preserve" style="white-space: pre" font-family="Font Awesome 6 Free" font-size="20" font-weight="900" letter-spacing="0em"><tspan x="257" y="311.5">add</tspan></text>
+<text fill="black" xml:space="preserve" style="white-space: pre" font-family="Noto Sans" font-size="32" font-weight="600" letter-spacing="0em"><tspan x="142" y="382.416">Topic</tspan></text>
+<rect x="143" y="401" width="446" height="46" fill="white" stroke="black" stroke-width="2"/>
+<text fill="black" xml:space="preserve" style="white-space: pre" font-family="Noto Sans" font-size="16" font-weight="bold" letter-spacing="0em"><tspan x="142" y="477.208">Add subtopic</tspan></text>
+<text fill="black" xml:space="preserve" style="white-space: pre" font-family="Font Awesome 6 Free" font-size="20" font-weight="900" letter-spacing="0em"><tspan x="257" y="478.5">add</tspan></text>
+<text fill="black" xml:space="preserve" style="white-space: pre" font-family="Noto Sans" font-size="32" font-weight="600" letter-spacing="0em"><tspan x="142" y="549.416">Topic</tspan></text>
+<rect x="143" y="568" width="446" height="46" fill="white" stroke="black" stroke-width="2"/>
+<text fill="black" xml:space="preserve" style="white-space: pre" font-family="Noto Sans" font-size="16" font-weight="bold" letter-spacing="0em"><tspan x="142" y="644.208">Add subtopic</tspan></text>
+<text fill="black" xml:space="preserve" style="white-space: pre" font-family="Font Awesome 6 Free" font-size="20" font-weight="900" letter-spacing="0em"><tspan x="257" y="645.5">add</tspan></text>
+<rect x="142" y="682" width="212" height="46" rx="8" fill="#008A02"/>
+<text fill="white" xml:space="preserve" style="white-space: pre" font-family="Font Awesome 6 Free" font-size="20" font-weight="900" letter-spacing="0em"><tspan x="214.5" y="712.5">arrow-left</tspan></text>
+<text fill="white" xml:space="preserve" style="white-space: pre" font-family="Noto Sans" font-size="16" font-weight="bold" letter-spacing="0em"><tspan x="242.5" y="711.208">Back</tspan></text>
+<rect x="1086" y="682" width="212" height="46" rx="8" fill="#008A02"/>
+<text fill="white" xml:space="preserve" style="white-space: pre" font-family="Noto Sans" font-size="16" font-weight="bold" letter-spacing="0em"><tspan x="1158.5" y="711.208">Next</tspan></text>
+<text fill="white" xml:space="preserve" style="white-space: pre" font-family="Font Awesome 6 Free" font-size="20" font-weight="900" letter-spacing="0em"><tspan x="1207.5" y="712.5">arrow-right</tspan></text>
+</svg>
