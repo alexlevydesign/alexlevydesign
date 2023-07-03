@@ -46,7 +46,7 @@
 }
 
 
-@media only screen and (max-width: 2000px) {
+@media only screen and (max-width: 5000px) {
     .OptimalAssessmentScreenFlowHorizontal, .OptimalAssessmentScreenFlowVertical {
         list-style: none;
     }
@@ -73,7 +73,12 @@
         max-width: 750px !important;
     }
     .OptimalAssessmentProcessImages img {
-        max-width: 60% !important;
+        max-width: 700px !important;
+    }
+    .OptimalAssessmentAddListItemImage img {
+        background-color: #fff;
+        max-width: 750px !important;
+    
     }
 }
 @media only screen and (max-width: 1000px) {
@@ -92,6 +97,11 @@
     .OptimalAssessmentProcessImages img {
         max-width: 90% !important;
     }
+    .OptimalAssessmentAddListItemImage img {
+        background-color: #fff;
+        max-width: 90vw !important;
+    
+    }
     
 
 }
@@ -108,6 +118,7 @@
     .SlideshowArrows {
         max-width: 500px !important;
     }
+    
 }
 @media only screen and (max-width: 675px) {
     .OptimalAssessmentFinalImages .Slide {
@@ -1474,7 +1485,7 @@ form label {
     border-top-left-radius: 39px;
     border-bottom-left-radius: 39px;
     align-self: center;
-    border: #0000ee solid 8px;
+    border: #0000ee solid 6px;
     border-right: none;
     overflow: hidden;
     
