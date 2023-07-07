@@ -1,8 +1,10 @@
 html, body {
-    height: 100%;
+   
     margin: 0;
     padding: 0;
-    
+  }
+  .AboutPageNavAndFooterStickyFix {
+    height: 100%
   }
   
   body {
@@ -540,9 +542,8 @@ display: block;
 nav {
     position: sticky;
     top: 0;
-    position: fixed;
-    width: 100%;
-    top: 0;
+    z-index: 100;
+    
 }
 .NavLinkHome {
     display: none !important;
