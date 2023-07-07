@@ -12,6 +12,7 @@ html, body {
   main {
     flex: 1;
   }
+
   
 
 /* Other Project Cards Switcher */
@@ -537,6 +538,9 @@ display: block;
 
 nav {
     position: sticky;
+    top: 0;
+    position: fixed;
+    width: 100%;
     top: 0;
 }
 .NavLinkHome {
