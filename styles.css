@@ -19,6 +19,7 @@ html, body {
   main {
     flex: 1;
   }
+  .nobr { white-space:nowrap; }
 
   
 
@@ -620,7 +621,8 @@ h1 {
     padding-bottom: 4px;
     margin-right: 10%;
     margin-top: 0;
-    line-height: 140%;
+    line-height: 130%;
+    widows: 1;
     
     
 }
@@ -2001,7 +2003,11 @@ line-height: 140%;
     .DigitalCatMagazineIntroImage {
         max-width: 350px !important ;
     }
-   
+    @media only screen and (max-width: 622px) {
+        .nobr {
+            white-space: initial;
+        }
+    }
 
 /* START MOBILE LESS THAN 480px */
 
