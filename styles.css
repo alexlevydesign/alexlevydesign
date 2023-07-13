@@ -664,6 +664,9 @@ h4 {
 .Button:active, .Button:hover {
     background: #00005e;
 }
+.Blue {
+    color: #0000ee;
+}
 
 .BodyText {
     font-size: 1em;
@@ -1534,7 +1537,7 @@ form label {
     
 }
 .BodyAboutLarge {
-    font-size: 1.5em;
+    font-size: 1.2em;
     line-height: 140%;
     font-style: normal;
     font-weight: 500;
@@ -1998,6 +2001,7 @@ line-height: 140%;
     .DigitalCatMagazineIntroImage {
         max-width: 350px !important ;
     }
+   
 
 /* START MOBILE LESS THAN 480px */
 
