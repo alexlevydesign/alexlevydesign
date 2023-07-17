@@ -34,7 +34,7 @@ html, body {
 
 }
 #TwitterFilterFeatureOtherProjectCard {
-
+    display: none;
 }
 #TypeSpecimenOtherProjectCard {
 
@@ -43,10 +43,10 @@ html, body {
 
 }
 #CatCafePostsOtherProjectCard {
-
+    display: none;
 }
 #FilmPosterOtherProjectCard {
-
+    display: none;
 }
 .OptimalAssessmentCardImage {
     max-height: 300px !important;
