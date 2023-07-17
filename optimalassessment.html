@@ -207,13 +207,41 @@ lightboxBackground.addEventListener('click', function() {
         </div>
         <h3>Design, test, and iterate</h3>
         <p>Due to time constraints, I only had time to do one user testing session (although I plan to do more soon).</p>
-        <h4>User testing insight</h4>
-        <p>The professor I conducted the user testing session with said that she liked being able to view multiple aspects of a course all in one place. However, it was presented as a virtual whiteboarding canvas, and she said she wasn't a big fan of that. While this was just one comment from a single user, it got me thinking about the fact that not all professors would find a whiteboarding canvas intuitive.</p>
-        <h4>Iterating based on insight</h4>
-        <ul>
-            <li>This insight led me to redesign that feature with more familiar components such as checkboxes and text inputs. In the future, I might add the whiteboarding tool as an additional feature.</li>
-            <li>This redesign also allowed me to combine what would have been five additional screens into a single screen, simplifying the flow.</li>
-        </ul>
+        <div class="case-study">
+         
+              <h4>Whiteboarding isn't for everyone</h4>
+              <p>Because professors have so many components they need to keep track of in each of their courses, I decided to design a screen where the professor could select the course components that apply to the assessment or lesson they are creating.</p>
+              <div class="content">
+              <div class="bullet-points">
+                <ul>
+                  <li><b class="Bolded">The professor liked</b> how she could view multiple aspects of a course all in one place.</li>
+                  <li><b class="Bolded">However,</b> it was presented as a virtual whiteboarding canvas, and she said she wasn't a big fan of that.</li>
+                  <li><b class="Bolded">While this was just one comment from a single user,</b> it got me thinking about the fact that not all professors would find a whiteboarding canvas intuitive.</li>
+                  <li><b class="Bolded">As a result,</b> I redesigned this screen with more familiar components such as checkboxes and text inputs.</li>
+                </ul>
+              </div>
+              <div class="ImageProcess">
+                <img src="images/optimal-assessment/ProcessGraphics/UserTestWhiteboard.png" alt="Image Description">
+              </div>
+            </div>
+          </div>
+          <div class="case-study">
+         
+            <h4>A confusing component</h4>
+            <p>I needed to design a component that would allow professors to continously add entries to a list through user input.</p>
+            <div class="content">
+            <div class="bullet-points">
+              <ul>
+                <li><b class="Bolded">My first iteration of this component</b> duplicated the entire input field component each time the user added another</li>
+                <li><b class="Bolded">The professor found this confusing</b>, and even though we were just simulating functionality due to Figma's prototyping limitations, I could tell that the professor was confused as to how this component worked.</li>
+                <li><b class="Bolded">As a result,</b> I iterated and redesigned the component so that instead of the entire input field being duplicated, the entry would just be listed as a tag under the input field.</li>
+              </ul>
+            </div>
+            <div class="ImageProcess">
+              <img src="images/optimal-assessment/ProcessGraphics/AddListItemsIterationGraphic.png" class="WhiteBackground" alt="Image Description">
+            </div>
+          </div>
+        </div>
         <!--
  <div class="FinalDesignDiv">
         <div class="SlideshowParent">
@@ -236,8 +264,7 @@ lightboxBackground.addEventListener('click', function() {
             <img class="ProcessImageLarge" src="images/optimal-assessment/CreateAssessmentOld.jpg" alt="The first version of the create assessment feature">
             <img class="ProcessImageLarge" src="images/optimal-assessment/CreateAssessmentNew.jpg" alt="The revised version of the create assessment feature">
             </div>
-        -->
-        <h3>Design decisions</h3>
+             <h3>Design decisions</h3>
         <h4>Component UX</h4>
         <ul>
             <li>I wanted to let the user input multiple items in a list that they can see on the same page. I designed a component that would let the user do this, but my first iteration was very confusing during user testing, as the professor had a hard time understanding how to interact with it. I simplified the component in my second iteration. In my third iteration, I made the visual design more on-brand.</li>
@@ -245,6 +272,8 @@ lightboxBackground.addEventListener('click', function() {
         <div class="OptimalAssessmentAddListItemImage">
             <img src="images/optimal-assessment/ProcessGraphics/AddListItemsIterationGraphic.png" alt="My first, second, and third iterations of a component.">
         </div>
+        -->
+       
        <!--
  <h4>Component UX: 1st iteration</h4>
         <div class="OptimalAssessmentAddListItemImage">
@@ -274,13 +303,19 @@ lightboxBackground.addEventListener('click', function() {
            
         
        
-       
+       <h3>Design decisions</h3>
+       <h4>UX design/information architecture</h4>
+       <ul>
+        <li>Originally, the create course screen was divided across multiple separate screens. After looking at research about form patterns, I learned that splitting a form across multiple screens can create friction if a user decides to go back and change previous responses. I consolidated these screens into one, which should improve usability. However, when I conduct additional user testing I will pay close attention to validate this.</li>
+       </ul>
         <h4>Visual design</h4>
         <ul>
             <li>I used green to signal primary actions to the user, such as a button that takes the user to the next page. I used red components to signify that an element will change something on the page when interacted with.</li>
         </ul>
         <h2 class="heading3">Outcome</h2>
         <p class="heading4">I pitched this MVP with my partner in a business pitch competition and won first place. I am currently developing it into a functional MVP for improved user testing.</span>
+            
+              
         </p>
         <h2 id="FinalDesignOptimalAssessment">Final design</h2>
         <!--
