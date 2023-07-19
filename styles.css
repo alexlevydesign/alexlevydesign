@@ -41,7 +41,8 @@
  
   
   .ImageProcess {
-    margin-left: 20px;
+    margin-left: 16px;
+    margin-right: 16px;
     flex: 5;
     margin-top: 0 !important;
   }
