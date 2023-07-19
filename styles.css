@@ -1,3 +1,5 @@
+
+
 .WhiteBackground {
     background-color: #fff;
 }
@@ -15,7 +17,6 @@
   .content {
     display: flex;
     flex-direction: row;
-    align-items: center;
 
   }
   
@@ -24,15 +25,18 @@
   }
   
   .bullet-points {
-    flex: 4;
+    
+    display: grid;
     
   }
   .bullet-points ul {
-
+    display: grid;
+    width: 350px;
   }
   .bullet-points li {
     max-width: 100%;
     width: auto;
+    flex: 0 1 auto
   }
  
   
@@ -61,7 +65,7 @@
   }
   @media screen and (max-width: 900px) {
     .content {
-      flex-direction: column;
+      flex-direction: column-reverse;
       align-items: flex-start !important;
     }
   
@@ -75,6 +79,10 @@
     .case-study p {
         margin-bottom: 1em !important;
         width: auto !important;
+      }
+      .bullet-points ul {
+        display: grid;
+        width: initial;
       }
   }
   
