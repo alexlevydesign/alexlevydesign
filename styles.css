@@ -1636,6 +1636,9 @@ form label {
     width: auto;
     padding-left: 0;
 }
+.BodyAboutLarge .heading3 {
+    margin-left: 0 !important;
+}
 .LargerText {
     font-size: 2em;
     padding-left: 0%;
