@@ -50,6 +50,7 @@
   .ImageProcess img {
     max-width: 500px;
     height: auto;
+    background-color: #fff;
   }
   
   /* Responsive Styles */
@@ -111,9 +112,16 @@ html, body {
   }
   .nobr { white-space:nowrap; }
 
-  
+  #AIFinancialOtherProjectCard img {
+
+  }
 
 /* Other Project Cards Switcher */
+
+#AIFinancialOtherProjectCard {
+display: none;
+}
+
 #OptimalAssessmentOtherProjectCard {
 
 }
@@ -159,6 +167,9 @@ html, body {
 .FilmPosterCardImage {
     max-height: 300px !important;
 }
+.AIFinancialCardImage {
+    max-height: 300px !important;
+}
 
 
 @media only screen and (max-width: 5000px) {
@@ -194,6 +205,11 @@ html, body {
         background-color: #fff;
         max-width: 850px !important;
     
+    }
+    .LongImage {
+        max-width: 90% !important;
+        margin-top: 1em;
+        margin-bottom: 1em;
     }
 }
 @media only screen and (max-width: 1000px) {
@@ -336,6 +352,9 @@ html, body {
 .TypeSpecimenSlideshow img {
     max-width: 600px !important;
     margin-bottom: 0 !important;
+}
+.TypeSpecimenIterations .ProcessImage {
+    background-color: #fff;
 }
 .CuseHacksBanner {
  max-width: 70%;
@@ -798,6 +817,8 @@ h4 {
 }
 .SmallText {
     font-weight: 300 !important;
+    width: 100% !important;
+    margin-top: .5em !important;
 }
 
 .CuseHacksStickerOtherProject {
@@ -891,9 +912,18 @@ gap: 1em;
     font-size: 1.1em;
     font-weight: 500;
 }
-.ProjectToolsDiv {
+.ProjectInfo {
    
     
+}
+.OutcomeHeroDiv {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+}
+.OutcomeHeroDiv .body {
+    width: 50%;
+    line-height: 140%;
 }
 .ProjectInfo h2 {
     margin-top: 0px;
@@ -963,7 +993,11 @@ li {
     max-width: 300px;
     border: #000 2px solid;
     display: block;
-    
+}
+.LongImage {
+    max-width: 1200px;
+    margin-top: 1em;
+    margin-bottom: 1em;
 }
 .ListItemParent {
     
@@ -1193,10 +1227,22 @@ margin-bottom: 4px !important;
     align-items: baseline;
     margin-top: 1em;
     flex-wrap: wrap;
+    margin-bottom: 4em;
+}
+.CatMagazineDesignSolutionImageGrid {
+    display: flex;
+    gap: 4em;
 }
 .PrintCatMagazineDesignSolutionChild{
     flex: 1;
     margin-right: 1em;
+}
+.CatMagazineImageGridChild {
+    display: flex;
+    flex-direction: column;
+}
+.CatMagazineProcess {
+    max-height: 600px;
 }
 .UICatMagazineDesignSolutionChild {
     flex: 1;
@@ -1724,10 +1770,20 @@ padding: 0;
     .OtherProject {
       width: 450px;
     }
+    .LongImage {
+        max-width: 90%;
+        margin-top: 1em;
+        margin-bottom: 1em;
 
 }
-
-
+}
+@media only screen and (max-width: 1360px) {
+    .LongImage {
+        max-width: 90%;
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
+}
 
 /* START MOBILE LESS THAN 1200px */
 
@@ -1821,18 +1877,7 @@ line-height: 140%;
     .DigitalCatMagazinePersona {
         max-width: 100% !important;
     }
-    .CatMagazineDesignSolution {
-        display: block;
-    }
-    .PrintCatMagazineDesignSolutionChild {
-        margin-bottom: 1.5em;
-    }
-    .PrintCatMagazineDesignSolutionChild img {
-        max-width: 90%;
-    }
-    .UICatMagazineDesignSolutionChild img {
-        max-width: 150px;
-    }
+    
     .catcafepostsImages {
         display: block;
     }
@@ -1909,6 +1954,24 @@ line-height: 140%;
     }
     .SkillCardChild {
         width: auto;
+    }
+    .CatMagazineDesignSolutionImageGrid {
+        display: flex;
+        gap: 1.5em;
+        flex-direction: column;
+        align-items:flex-start;
+    }
+    .CatMagazineDesignSolution {
+        display: block;
+    }
+    .PrintCatMagazineDesignSolutionChild {
+        margin-bottom: 1.5em;
+    }
+    .PrintCatMagazineDesignSolutionChild img {
+        max-width: 90%;
+    }
+    .UICatMagazineDesignSolutionChild img {
+        max-width: 150px;
     }
     
 }
@@ -2099,6 +2162,13 @@ line-height: 140%;
     @media only screen and (max-width: 622px) {
         .nobr {
             white-space: initial;
+        }
+        .OutcomeHeroDiv .body {
+            width: 70%;
+            line-height: 140%;
+        }
+        .CatMagazineDesignSolutionImageGrid img, .CatMagazineDesignSolutionImageGrid video {
+            max-width: 90%;
         }
     }
 
@@ -2375,6 +2445,10 @@ line-height: 140%;
     }
     .CatCafeHero {
         max-width: 250px !important;
+    }
+    .OutcomeHeroDiv .body {
+        width: 80%;
+        line-height: 140%;
     }
     
 
