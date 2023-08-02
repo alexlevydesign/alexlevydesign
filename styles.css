@@ -1,5 +1,7 @@
 
-
+.ProjectMainContent .BottomMargin {
+    margin-bottom: .25em !important;
+}
 .WhiteBackground {
     background-color: #fff;
 }
@@ -45,6 +47,14 @@
     margin-right: 16px;
     flex: 5;
     margin-top: 0 !important;
+  }
+  .ImageProcessGap {
+    display: flex;
+    flex-direction: column;
+    gap: .5em;
+  }
+  .ImageProcessGap img {
+    background-color:initial;
   }
   
   .ImageProcess img {
@@ -843,7 +853,7 @@ h4 {
 }
 .ProjectHeroInfoAndImage {
     display: flex;
-    justify-content: space-between;
+   
 }
 .ProjectPageHeroHeadingDiv .ProjectTag {
     
@@ -917,12 +927,12 @@ gap: 1em;
     
 }
 .OutcomeHeroDiv {
-    justify-content: space-between;
     display: flex;
     flex-direction: column;
+    width: 50%;
 }
 .OutcomeHeroDiv .body {
-    width: 50%;
+    width: 60%;
     line-height: 140%;
 }
 .ProjectInfo h2 {
@@ -949,6 +959,9 @@ gap: 1em;
 .ProjectMainContent {
     margin-left: 10vw;
     margin-top: 2em;
+}
+.ProjectMainContent h2 {
+    margin-top: 1.4em;
 }
 .ProjectMainContent p {
     font-size: 1em;
@@ -1133,10 +1146,14 @@ margin-bottom: 4px !important;
 }
 /* PROJECT PAGE END */
 
+.CuseHacksHeroImage {
+    max-width: 700px;
+}
+
 /* OPTIMAL ASSESSMENT PAGE START */
 
 .OptimalAssessmentHeroImage {
-    max-width: 400px !important;
+    max-width: 500px !important;
     margin-right: 4em;
 }
 
@@ -1297,6 +1314,9 @@ margin-bottom: 4px !important;
 
 /*TYPE SPECIMEN PAGE START */
 
+.TypeSpecimenHeroImage {
+    max-width: 700px !important;
+}
 .Quote {
     font-style: italic;
     margin-left: 1em;
@@ -1776,6 +1796,9 @@ padding: 0;
         margin-bottom: 1em;
 
 }
+.TypeSpecimenHeroImage {
+    max-width: 600px !important;
+}
 }
 @media only screen and (max-width: 1360px) {
     .LongImage {
@@ -1790,6 +1813,11 @@ padding: 0;
 
 
 @media only screen and (max-width: 1200px) {
+    
+    
+    .TypeSpecimenHeroImage {
+        max-width: 500px !important;
+    }
     .CuseHacksBanner {
         max-width: 70% !important;
         margin-bottom: .25em !important;
@@ -1799,7 +1827,7 @@ padding: 0;
        }
 
     .OptimalAssessmentHeroImage {
-        max-width: 325px !important;
+        max-width: 475px !important;
         margin-right: 4em;
     }
 
@@ -1932,7 +1960,7 @@ line-height: 140%;
         max-width: 55% !important;
        }
     .OptimalAssessmentHeroImage {
-        max-width: 260px !important;
+        max-width: 400px !important;
         margin-right: 1em;
     }
 
@@ -1976,6 +2004,14 @@ line-height: 140%;
     
 }
 @media only screen and (max-width: 940px) {
+    .OutcomeHeroDiv .body {
+        width: 100%;
+        line-height: 140%;
+    }
+    .CuseHacksHeroImage {
+        max-width: 500px !important;
+        margin-left: 10vw;
+    }
     .OtherProject {
        
     }
@@ -2099,6 +2135,7 @@ line-height: 140%;
 
 /* START MOBILE LESS THAN 950px */
 @media only screen and (max-width: 950px) {
+   
     .TypeSpecimenSlideshow img {
         max-width: 100% !important;
     }
@@ -2160,21 +2197,41 @@ line-height: 140%;
         max-width: 350px !important ;
     }
     @media only screen and (max-width: 622px) {
+        .CuseHacksHeroImage {
+            max-width: 400px !important;
+            margin-left: 10vw;
+        }
         .nobr {
             white-space: initial;
         }
         .OutcomeHeroDiv .body {
-            width: 70%;
+            width: 100%;
             line-height: 140%;
+        }
+        .OutcomeHeroDiv {
+            width: 70%;
         }
         .CatMagazineDesignSolutionImageGrid img, .CatMagazineDesignSolutionImageGrid video {
             max-width: 90%;
+        }
+        .TypeSpecimenHeroImage {
+            max-width: 400px !important;
         }
     }
 
 /* START MOBILE LESS THAN 480px */
 
 @media only screen and (max-width: 480px) {
+    .OutcomeHeroDiv {
+        width: 90%;
+    }
+    .CuseHacksHeroImage {
+        max-width: 350px !important;
+        margin-left: 10vw;
+    }
+    .TypeSpecimenHeroImage {
+        max-width: 300px !important;
+    }
     .CuseHacksPoster {
         max-width: 100% !important;
        }
@@ -2416,6 +2473,15 @@ line-height: 140%;
     
     /* START MOBILE LESS THAN 412px */
 
+    .CuseHacksHeroImage {
+        max-width: 290px !important;
+        margin-left: 10vw;
+    }
+
+    .TypeSpecimenHeroImage {
+        max-width: 275px !important;
+    }
+
     .OptimalAssessmentHeroImage {
         max-width: 275px !important;
         margin-left: 10vw;
@@ -2447,9 +2513,10 @@ line-height: 140%;
         max-width: 250px !important;
     }
     .OutcomeHeroDiv .body {
-        width: 80%;
+        width: 90%;
         line-height: 140%;
     }
+    
     
 
 }
