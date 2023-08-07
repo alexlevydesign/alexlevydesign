@@ -1,4 +1,11 @@
 
+
+.VideoPlayer {
+    width: 300px;
+    margin: 0;
+    padding: 0;
+    
+}
 .ProjectMainContent .BottomMargin {
     margin-bottom: .25em !important;
 }
@@ -1119,6 +1126,18 @@ margin-bottom: 4px !important;
     font-size: 1.2em !important;
     line-height: 24px;
     font-variant: small-caps;
+}
+.OtherProjectTagContainer {
+    display: flex;
+    gap: 1em;
+    justify-content: center;
+}
+.FeaturedTag {
+    width: auto !important;
+    color: #0000ee;
+    font-weight: 500 !important;
+    
+ 
 }
 .CurrentOtherProject {
     mix-blend-mode: overlay;
