@@ -24,13 +24,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Type Specimen</title>
+    <title>CuseHacks Branding</title>
     <link rel="icon" type="image/x-icon" href="favicon.ico">
     <link href="styles.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <script>
+        //Slider code start
     let slideIndex = 1;
 showSlides(slideIndex);
 
@@ -61,6 +62,30 @@ function showSlides(n) {
 const slides = document.querySelectorAll(".slide");
 slides[0].style.display = "block";
 
+//Lightbox code start
+
+const lightboxContainer = document.querySelector('.lightbox-container');
+const lightboxBox = document.querySelector('.lightbox-box');
+const lightboxBackground = document.querySelector('.lightbox-background');
+const lightboxClose = document.querySelector('.lightbox-close');
+const lightboxTrigger = document.querySelector('.lightbox-trigger');
+
+// Open the lightbox when the image is clicked
+lightboxTrigger.addEventListener('click', function() {
+  lightboxContainer.style.display = 'flex';
+  lightboxBox.innerHTML = '<img src="' + this.src + '">';
+});
+
+// Close the lightbox when the close button is clicked
+lightboxClose.addEventListener('click', function() {
+  lightboxContainer.style.display = 'none';
+});
+
+// Close the lightbox when the background is clicked
+lightboxBackground.addEventListener('click', function() {
+  lightboxContainer.style.display = 'none';
+});
+
     </script>
 </head>
 <body>
@@ -88,7 +113,7 @@ slides[0].style.display = "block";
         <div class="ProjectPageIntro">
             <div class="ProjectPageHeroHeadingDiv">
                 <p class="ProjectTag">graphic design</p>
-                                <h1>Type Specimen</h1>
+                                <h1>CuseHacks Branding</h1>
                             </div>
                 
                     <div class="ProjectInfo">
@@ -100,30 +125,29 @@ slides[0].style.display = "block";
                                 <span class="InlineBullet">&bull;</span>
                                 <span class="heading4">Content writer</span>
                                 <span class="InlineBullet">&bull;</span>
-                                <span class="heading4">Researcher</span>
+                                <span class="heading4">Social media manager</span>
                         
                         </div>
                         </div>
                         <div class="ProjectToolsDiv">
                             <h2 class="heading3">Tools</h2>
                             <div class="RolesParent">
-                                    <span class="heading4">Adobe InDesign</span>
+                                    <span class="heading4">Adobe Illustrator</span>
                             </div>
                         </div>
                         <div class="ProjectHeroInfoAndImage">
                         <div class="OutcomeHeroDiv">
                             <h2 class="heading3">Summary</h2>
         <p class="body ShiftRight">
-            I designed a type specimen to promote the typeface IBM Plex Serif. I designed, researched, wrote the content for a 16-page spread to show the uses of the typeface. To show the versatility of the typeface, I followed principles of good typography.<br><br>
-            My professor commented on the progression of this design:<br><span class="Quote">"What I appreciate about this design is your concept. You had it from the very beginning and when it didn't quite work at the beginning, instead of trying something else, you worked on it to make it work."</span>
+            I joined Innovate Orange (the student organization that runs a hackathon called CuseHacks) as a designer. I was tasked with redesigning the CuseHacks brand for the next hackathon. The organization chose a gaming theme for the hackathon, so I designed the branded materials to fit with that theme.<br><br> As designer and social media manager, I grew the CuseHacks Instagram account's followers by 4.5% despite the account having been inactive for a year. The hackathon also had a sizable attendance of over 50 people.
         </p>
         <div>
-            <a href="#FinalDesignTypeSpecimen" class="Button ProjectPageButton">View final design</a>
+            <a href="#FinalDesignCuseHacks" class="Button ProjectPageButton">View final design</a>
         </div>
                         </div>
                         
                        <div class="ProjectHeroImg img">
-                        <img class="TypeSpecimenHeroImage" src="images/TypeSpecimenPDFs/MockupSmaller.png" alt="A page from my IBM Plex type specimen">
+                        <img class="CuseHacksHeroImage" src="images/cusehacksbeta2023/sticker.png" alt="A sticker of the CuseHacks Beta wordmark">
                     </div> 
                     </div>
                     
@@ -144,115 +168,124 @@ slides[0].style.display = "block";
         </div>
         
     </header>
+   
     <main class="ProjectMainContent">
-        <h2>The situation</h2>
-        <p>I designed a 16-page typographic specimen that showcased the unique features, uses, and background of the typeface IBM Plex Serif. Since the project was for my typographic design class, one of the constraints I had to follow was that I was not allowed to use images in my design.</p>
-        <h2>Why IBM Plex Serif?</h2>
-        <p>Over the summer, I learned about IBM's new corporate typeface superfamily, IBM Plex, as a participant in the design track of the IBM Accelerate Program. I chose the serif variation because it was intriguing how it had influences from older typographic styles yet still reflected IBM as a modern technology company.
-        </p>
-        <h2>Research and content</h2>
-        <p>Before starting on the design, I had to do background research on IBM Plex Serif in order to write the content contained in my type specimen. This proved to be a little challenging since the typeface is fairly new, so there wasn't a ton of information on it compared to older typefaces.</p>
+        <h2 class="ProjectPageH2">The situation</h2>
+        <p>As a designer for CuseHacks (a student-run hackathon at Syracuse University), I was tasked with designing a new brand for the Spring 2023 hackathon based on a theme, which for that event was gaming.</p>
         <h2>The design process</h2>
-        <h3>“It's boring”</h3>
-        <p>After I designed my first draft, my professor said that it was boring. After hearing this alongside the critique from my classmates, I redesigned my type specimen to better reflect how interesting IBM and its typeface actually are.</p>
-        <h3>Focusing on a final design</h3>
-        <p>One thing that helped me improve my design was to focus on a key message. IBM describes the IBM Plex family as reflecting the company's mission of connecting “mankind and machine.” I noticed specific features of the typeface that reflected that value, so I leaned into that with my design.</p>
-        <h3>Iteration</h3>
-        <p>These are three iterations of a spread from my type specimen. The goal of this spread was to show the unique features of the typeface. Over the course of my iterations, I realized that what the spread needed was whitespace due to the combination of large letters and smaller descriptions. The more whitespace I added, the less cluttered the spread became.</p>
-        <div class="ProcessList TypeSpecimenIterations">
-            <img class="ProcessImage" src="images/type-specimen/TSiteration1.png" alt="The first iteration of a page of my type specimen">
-            <img class="ProcessImage" src="images/type-specimen/TSiteration2.png" alt="The second iteration of a page of my type specimen">
-            <img class="ProcessImage" src="images/type-specimen/TSiteration3.png" alt="The final iteration of a page of my type specimen">
-        </div>
-        <h3>Design decisions</h3>
         
+        <h3>Brand-wide design decisions</h3>
+        <h4>Typography</h4>
         <ul>
-            <li class="ListItemParent">I used large punctuation marks as dominant elements on some pages to create visual interest and draw the eye into specific parts of the layout. This also helped to showcase IBM Plex Serif's unique punctuation marks.
-                <!--
- <img class="ProcessImage" src="images/ProcessImages/TypeSpecimenPunctuationExample.png" alt="A spread from my type specimen showing the asterisks and quotation marks from the IBM Plex Serif typeface being used as dominant elements in my design.">
-                -->
-               </li>
-            <li>Some visual elements and motifs I repeated throughout my design, such as the blue lines (representative of the bars in IBM's logo). These lines helped to bring cohesiveness to the design of my type specimen, while also serving specific purposes in their individual usage.</li>
-        </ul> 
-        <!--
-            <div class="ResearchCardsParent">
-            <div class="ResearchCardChild"><p>I used large punctuation marks as dominant elements on some pages to create visual interest and draw the eye into specific parts of the layout. This also helped to showcase IBM Plex Serif's unique punctuation marks.</p><img class="ProcessImage" src="images/ProcessImages/TypeSpecimenPunctuationExample.png" alt="A spread from my type specimen showing the asterisks and quotation marks from the IBM Plex Serif typeface being used as dominant elements in my design."></div>
-            <div class="ResearchCardChild"><p>Some visual elements and motifs I repeated throughout my design, such as the blue lines (representative of the bars in IBM's Logo). These lines helped to bring cohesiveness to the design of my type specimen, while also serving specific purposes in their individual usage.</p><img class="ProcessImage" src="images/ProcessImages/TypeSpecimenLinesExample.png" alt="A spread from my type specimen showing lines being used as elements in my design"></div>
-        </div>
-        -->
-       
-        <h2>Outcome</h2>
-        <p class="heading4">My professor commented on the progression of this design:<br><span class="Quote">"What I appreciate about this design is your concept. You had it from the very beginning and when it didn't quite work at the beginning, instead of trying something else, you worked on it to make it work."</span>
+            <li>I chose a video game themed display typeface for top-level headings and the wordmark but used a more versatile sans-serif typeface for everything else.</li>
+            <li>I often had to adjust the kerning on the display typeface when the spacing between letters looked uneven.</li>
+        </ul>
+        <h4>Pattern</h4>
+        <ul>
+            <li>I made a pattern based on glowing green lines that look like glowing wires to emphasize the technical basis of the hackathon while also slightly hinting at the gaming theme.</li>
+            <li>This visual element served a functional purpose as well as an aesthetic one. Since the lines contrast so much with the background, I used this pattern to draw attention to certain elements by pointing at them or boxing them in.</li>
+            
+        </ul>
+        <h4>Colors</h4>
+        <ul>
+            <li>I chose orange and green because the orange associated the event with Syracuse University, and the green added a technical, retro feel.</li>
+            <li>I designed all branded materials with a black background to make the green wire pattern pop out from the background. If I had made the background white, there wouldn't have been enough contrast</li>
+            
+        </ul>
+        <h2 class="heading3">Outcome</h2>
+        <p class="heading4">My branding and social media campaign helped grow the CuseHacks Instagram follower count by 4.5%. We also drew a sizable attendance of over 50 people.</span>
         </p>
-        <h2 id="FinalDesignTypeSpecimen">Final design</h2>
+        
+        <h2 id="FinalDesignCuseHacks">Final design</h2>
         <div class="FinalDesignDiv">
+        <h3>Wordmark</h3>
+        <div class="FinalDesignImage">
+            <img src="images/cusehacksbeta2023/Banner.png" class="CuseHacksBanner" alt="A social media banner containing the CuseHacks Beta wordmark">
+        </div>
+       
+        <img src="images/cusehacksbeta2023/sticker.png" class="CuseHacksBanner CuseHacksStickerFinalDesign" alt="A sticker of the CuseHacks Beta wordmark">
+        <p>This is the wordmark I designed displayed as a social media banner image and as a sticker.</p>
+        <h3>Social media graphics</h3>
+        <div class="FinalDesignImage">
+            <div class="SlideshowParent CuseHacksSlideShow">
+                <p><span class="Bold">Use the arrow buttons below the image to view the next post.</span></p>
+                <div class="Slideshow">
+                    <div class="Slide FirstSlide">
+                        <div>
+                           <img src="images/cusehacksbeta2023/Social assets/Categories Post copy-8.png" alt="Social media post for CuseHacks Beta"> 
+                        </div>
+                        <p class="ImageNumber">1/7</p>
+                    </div>
+                    <div class="Slide">
+                        <div>
+                         <img src="images/cusehacksbeta2023/Social assets/Final 2 weeks-8.png" alt="Social media post for CuseHacks Beta">   
+                        </div>
+                        <p class="ImageNumber">2/7</p>
+                    </div>
+                    <div class="Slide">
+                        <div>
+                         <img src="images/cusehacksbeta2023/Social assets/Meet the team/MtT Alex Levy-8.png" alt="Social media post for CuseHacks Beta">   
+                        </div>
+                        <p class="ImageNumber">3/7</p>
+                    </div>
+                    <div class="Slide">
+                        <div>
+                         <img src="images/cusehacksbeta2023/Social assets/Winners/WinnersIntro.png" alt="Social media post for CuseHacks Beta">   
+                        </div>
+                        <p class="ImageNumber">4/7</p>
+                    </div>
+                    <div class="Slide">
+                        <div>
+                         <img src="images/cusehacksbeta2023/Social assets/Day of event posts/Event is today post-8.png" alt="Social media post for CuseHacks Beta">   
+                        </div>
+                        <p class="ImageNumber">5/7</p>
+                    </div>
+                    <div class="Slide">
+                        <div>
+                         <img src="images/cusehacksbeta2023/CuseHacks-coming-soon-gif.gif" alt="Social media post for CuseHacks Beta">   
+                        </div>
+                        <p class="ImageNumber">6/7</p>
+                    </div>
+                    <div class="Slide">
+                        <div>
+                         <img src="images/cusehacksbeta2023/Social assets/Organizer Post-8.png" alt="Social media post for CuseHacks Beta">   
+                        </div>
+                        <p class="ImageNumber">7/7</p>
+                    </div>
+                </div>
+                <div class="SlideshowArrows">
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+                </div>
+        </div>
+        <h3>Poster</h3>
+        <div class="FinalDesignImage">
+            <img src="images/cusehacksbeta2023/cusehacks-poster.jpeg" class="CuseHacksPoster" alt="A poster for CuseHacks Beta">
+        </div>
+        <p>This is a poster I designed promoting the hackathon. It was part of a poster campaign where I made multiple variations of this poster design, changing the text in the box to appeal to students from different majors.</p>
+        <h3>Signage</h3>
+        <div class="FinalDesignImage">
+            <img src="images/cusehacksbeta2023/day-of-sign.jpeg" class="CuseHacksBanner" alt="A sign about CuseHacks Beta">
+        </div>
+        <p>This is a sign I made to direct people to the hackathon on the day of the event. My goal with this sign was to help people who had already signed up find the event, as well as to advertise the event to people passing by.</p>
+        
+        </div>
+        
+       
+
+<div class="lightbox-container">
+  <div class="lightbox-box"></div>
+  <div class="lightbox-background">
+    <button class="lightbox-close">&times;</button>
+  </div>
+</div>
+
+            
             <!--
             <iframe src="images/type-specimen.pdf"></iframe>
             -->
-            <div class="SlideshowParent TypeSpecimenSlideshow">
-            <div class="Slideshow TypeSpecimenSlideshow">
-                <p><span class="Bold">Use the arrow buttons below the image to view the next page.</span></p>
-                <div class="Slide FirstSlide">
-                    <div>
-                        <img src="images/type-specimen-images8.png" alt="A page from my type specimen">
-                    </div>
-                    <p class="ImageNumber">1/8</p>
-                </div>
-                <div class="Slide">
-                    <div>
-                        <img src="images/type-specimen-images.png" alt="A page from my type specimen">
-                    </div>
-                    <p class="ImageNumber">2/8</p>
-                </div>
-                <div class="Slide">
-                    <div>
-                      <img src="images/type-specimen-images2.png" alt="A page from my type specimen">  
-                    </div>
-                    <p class="ImageNumber">3/8</p>
-                </div>
-                <div class="Slide">
-                    <div>
-                       <img src="images/type-specimen-images3.png" alt="A page from my type specimen"> 
-                    </div>
-                    <p class="ImageNumber">4/8</p>
-                </div>
-                <div class="Slide">
-                    <div>
-                        <img src="images/type-specimen-images4.png" alt="A page from my type specimen">
-                    </div>
-                    <p class="ImageNumber">5/8</p>
-                </div>
-                <div class="Slide">
-                    <div>
-                     <img src="images/type-specimen-images5.png" alt="A page from my type specimen">   
-                    </div>
-                    <p class="ImageNumber">6/8</p>
-                </div>
-                <div class="Slide">
-                    <div>
-                      <img src="images/type-specimen-images6.png" alt="A page from my type specimen">  
-                    </div>
-                    <p class="ImageNumber">7/8</p>
-                </div>
-                <div class="Slide">
-                    <div>
-                      <img src="images/type-specimen-images7.png" alt="A page from my type specimen">  
-                    </div>
-                    <p class="ImageNumber">8/8</p>
-                </div>
-                <div class="SlideshowArrows">
-                    <div class="SlideshowArrowChild">
-                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                    </div>
-                    <div class="SlideShowArrowChild">
-                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
-                    </div>
-                    
-                </div>
-        
-            </div>
-            
-            </div>
+           
               
 
 
@@ -337,7 +370,7 @@ slides[0].style.display = "block";
                 </div>
             </a>
         </div>
-        <div id="TypeSpecimenOtherProjectCard" class="CurrentOtherProject">
+        <div id="TypeSpecimenOtherProjectCard">
             <a class="OtherProjectLink" href="typespecimen.html">
             <div class="OtherProject">
                 <p class="OtherProjectTag">Graphic Design</p>
@@ -347,7 +380,7 @@ slides[0].style.display = "block";
             </div>
         </a>
         </div>
-        <div id="CuseHacksBrandingOtherProjectCard">
+        <div id="CuseHacksBrandingOtherProjectCard" class="CurrentOtherProject">
             <a class="OtherProjectLink" href="cusehacks.html">
             <div class="OtherProject">
                 <p class="OtherProjectTag">Graphic Design</p>
@@ -390,8 +423,7 @@ slides[0].style.display = "block";
     </div>
     -->
     
-    
-   
+
                 
             </div>
             <!--
@@ -484,7 +516,6 @@ slides[0].style.display = "block";
                 -->
             </div>
     </main>
-
 
 
 
