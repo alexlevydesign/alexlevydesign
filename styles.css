@@ -1103,6 +1103,7 @@ margin-bottom: 4px !important;
     border-bottom: solid 6px #0000ee;
     text-align: center;
     padding-bottom: 2em !important;
+    border-radius: 8px;
     
     
 }
@@ -1563,6 +1564,7 @@ header a:link, header a:visited, header a:hover, .header a:active {
     justify-content: space-between;
     border-bottom: solid 6px #0000ee;
     align-items: center;
+    
 }
 .ProjectCard:hover {
     background: hsl(240, 100%, 93%);
@@ -1641,6 +1643,7 @@ input, textarea {
     height: 2.5em;
     border: #000000 1px solid;
     margin-top: 2px;
+    border-radius: 8px;
 }
 form label {
     font-size: 16px;
@@ -1661,6 +1664,7 @@ form label {
     height: 10em;
     border: #000000 1px solid;
     margin-top: 2px;
+    border-radius: 8px;
 
 }
 .FormMessageDiv {
@@ -2242,6 +2246,9 @@ line-height: 140%;
         }
         .TypeSpecimenHeroImage {
             max-width: 400px !important;
+        }
+        .OtherProject {
+            border-radius: 0;
         }
     }
 
