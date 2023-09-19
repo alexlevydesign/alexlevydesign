@@ -1121,6 +1121,9 @@ margin-bottom: 4px !important;
     
     
 }
+.TagAmpersand {
+    font-size: smaller;
+}
 .OtherProject p, .OtherProject h3 {
     text-align: left;
 }
