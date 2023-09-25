@@ -247,7 +247,53 @@ display: none;
     .TypeSpecimenIterations .ProcessImage {
         max-width: 20%;
     }
+    .ProjectMainContent p, .ProjectMainContent li, .ProjectHeroInfoAndImage p {
+        width: 25vw !important;
+    }
+    .ImageProcess p {
+        width: auto !important;
+    }
+    .OtherProjectsGrid p {
+        width: auto !important;
+    }
 }
+@media only screen and (max-width: 1600px) {
+    .ProjectMainContent p, .ProjectMainContent li, .ProjectHeroInfoAndImage p {
+        width: 30vw !important;
+    }
+    .ImageProcess p {
+        width: auto !important;
+    }
+    .OtherProjectsGrid p {
+        width: auto !important;
+    }
+}
+@media only screen and (max-width: 1400px) {
+    .ProjectMainContent p, .ProjectMainContent li, .ProjectHeroInfoAndImage p {
+        width: 35vw !important;
+    }
+    .ImageProcess p {
+        width: auto !important;
+    }
+    .OtherProjectsGrid p {
+        width: auto !important;
+    }
+}
+@media only screen and (max-width: 1200px) {
+    .ProjectMainContent p, .ProjectMainContent li {
+        width: 50vw !important;
+    }
+    .ProjectHeroInfoAndImage p {
+        width: auto;
+    }
+    .ImageProcess p {
+        width: auto !important;
+    }
+    .OtherProjectsGrid p {
+        width: auto !important;
+    }
+}
+
 @media only screen and (max-width: 1000px) {
     .OptimalAssessmentFinalImages .Slide {
         max-width: 600px !important;
@@ -269,7 +315,32 @@ display: none;
         max-width: 90vw !important;
     
     }
-    
+    .ProjectMainContent p, .ProjectMainContent li {
+        width: 50vw !important;
+    }
+    .ProjectHeroInfoAndImage p {
+        width: auto;
+    }
+    .ImageProcess p {
+        width: auto !important;
+    }
+    .OtherProjectsGrid p {
+        width: auto !important;
+    }
+}
+@media only screen and (max-width: 940px) {
+    .ProjectHeroInfoAndImage p {
+        width: 60vw !important;
+}
+.ProjectMainContent p, .ProjectMainContent li {
+    width: 60vw !important;
+}
+.ImageProcess p {
+    width: auto !important;
+}
+.OtherProjectsGrid p {
+    width: auto !important;
+}
 
 }
 @media only screen and (max-width: 775px) {
@@ -305,8 +376,28 @@ display: none;
         max-width: 90vw !important;
     
     }
+  
     .OptimalAssessmentAddListItemImage .LargerImage {
         max-width: 90vw !important;
+    }
+    .OutcomeHeroDiv {
+        width: auto;
+    }
+    .ProjectMainContent p, .ProjectMainContent li {
+        width: 60vw !important;
+    }
+    .ProjectHeroInfoAndImage p {
+        width: 60vw !important;
+    }
+    .OutcomeHeroDiv {
+        width: auto !important;
+    }
+
+    .ImageProcess p {
+        width: auto !important;
+    }
+    .OtherProjectsGrid p {
+        width: auto !important;
     }
 
 }
@@ -332,6 +423,26 @@ display: none;
     }
     .OptimalAssessmentWireframe img {
         max-width: 290px !important;
+    }
+    .OutcomeHeroDiv {
+        width: auto;
+        padding-right: 8px;
+    }
+    .ProjectMainContent p, .ProjectMainContent li {
+        width: auto !important;
+    }
+    .ProjectHeroInfoAndImage p {
+        width: auto !important;
+    }
+    .OutcomeHeroDiv {
+        width: auto !important;
+    }
+
+    .ImageProcess p {
+        width: auto !important;
+    }
+    .OtherProjectsGrid p {
+        width: auto !important;
     }
 }
 .CatCafeSlideshow img {
@@ -402,6 +513,9 @@ display: none;
 }
 .CuseHacksSlideShow img {
     margin-bottom: 0 !important;
+}
+.CuseHacksPoster {
+    margin-bottom: .25em !important;
 }
 
 /* VIS 327 */
@@ -551,6 +665,7 @@ i {
     .OtherProject {
         width: 80vw !important;
     }
+    
 
 }
 @media only screen and (max-width: 940px) {
@@ -1172,7 +1287,7 @@ margin-bottom: 4px !important;
 .OtherProjectTagContainer {
     display: flex;
     gap: 1em;
-    justify-content: center;
+    
 }
 .FeaturedTag {
     width: auto !important;
@@ -2012,6 +2127,28 @@ line-height: 140%;
         grid-template-columns: repeat(3, 4fr);
         /*padding: 2em;*/
     }
+    .CatMagazineDesignSolutionImageGrid {
+        display: flex;
+        gap: 1.5em;
+        flex-direction: column;
+        align-items:flex-start;
+    }
+    .CatMagazineDesignSolution {
+        display: block;
+    }
+    .PrintCatMagazineDesignSolutionChild {
+        margin-bottom: 1.5em;
+    }
+    .PrintCatMagazineDesignSolutionChild img {
+        max-width: 90%;
+    }
+    .UICatMagazineDesignSolutionChild img {
+        max-width: 150px;
+    }
+    .CatMagazineProcess {
+        width: 50vw;
+        max-height: unset;
+    }
     
 }
 
@@ -2069,6 +2206,7 @@ line-height: 140%;
         max-width: 150px;
     }
     
+    
 }
 @media only screen and (max-width: 940px) {
     .OutcomeHeroDiv .body {
@@ -2106,6 +2244,9 @@ line-height: 140%;
     max-width: 350px !important;
     margin-left: 10vw;
    
+}
+.TypeSpecimenHeroImage {
+    margin-left: 10vw !important;
 }
 }
 
@@ -2283,9 +2424,14 @@ line-height: 140%;
         }
         .TypeSpecimenHeroImage {
             max-width: 400px !important;
+           
         }
+        
         .OtherProject {
             border-radius: 0;
+        }
+        .TypeSpecimenHeroImage {
+            margin-left: 10vw !important;
         }
     }
 
@@ -2301,6 +2447,7 @@ line-height: 140%;
     }
     .TypeSpecimenHeroImage {
         max-width: 300px !important;
+        margin-left: 5vw !important;
     }
     .CuseHacksPoster {
         max-width: 100% !important;
