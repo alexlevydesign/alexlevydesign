@@ -112,9 +112,11 @@ lightboxBackground.addEventListener('click', function() {
         
         <div class="ProjectPageIntro">
             <div class="ProjectPageHeroHeadingDiv">
-                <p class="ProjectTag">ui & ux</p>
+                <p class="ProjectTag">ui <span class="TagAmpersand">&</span> ux</p>
                                 <h1>AI Financial Advisor</h1>
                             </div>
+                            <!-- <p class="BodyLarge">I led a team in designing the interface for an AI financial advisor for an internal IBM competition.
+                            </p> -->
                 <div class="ProjectHeroInfoAndImage">
                     <div class="ProjectInfo">
                    
@@ -126,8 +128,6 @@ lightboxBackground.addEventListener('click', function() {
                                 <span class="heading4">Designer</span>
                                 <span class="InlineBullet">&bull;</span>
                                 <span class="heading4">Researcher</span>
-                                <span class="InlineBullet">&bull;</span>
-                                <span class="heading4">Content writer</span>
                         
                         </div>
                         </div>
@@ -140,17 +140,32 @@ lightboxBackground.addEventListener('click', function() {
                             </div>
                         </div>
                         <div class="OutcomeHeroDiv">
-                            <h2 class="heading3">Outcome</h2>
-        <p class="heading4 ShiftRight">I led a team in designing the interface for an AI financial advisor for an internal IBM competition.
+                            <h2 class="heading3">Summary</h2>
+        <p class="body ShiftRight">
+            Many people have questions about personal and complex financial situations, but they don't want (or are unable) to hire a financial advisor.<br><br>
+           I designed an An AI financial assistant chatbot that would be integrated into a bank's website where users could get answers to their financial questions and be directed to appropriate bank resources.
         </p>
+                            
+                            <!-- <div class="SummaryContainer">
+                            <div class="SummaryChild">
+                                <h2 class="heading3 ShiftRight">Problem</h2>
+                                <p class="ShiftRight">Many people have questions about personal and complex financial situations, but they don't want (or are unable) to hire a financial advisor.</p>
+                            </div>
+                            <div class="SummaryChild">
+                                <h2 class="heading3 ShiftRight">Solution</h2>
+                                <p class="ShiftRight">An AI financial assistant chatbot that would be integrated into a bank's website where users could get answers to their financial questions and be directed to appropriate bank resources.</p>
+                            </div>
+                            </div> -->
+                           
+       
                         </div>
-                        <div>
-                            <a href="#FinalDesignOptimalAssessment" class="Button ProjectPageButton">View final design</a>
+                        <div id="AIFinancialAdvisorImageResizer">
+                            <a href="#FinalDesignAIFinancialAdvisor" class="Button ProjectPageButton">View final design</a>
                         </div>
                         
                     </div>
                     <div class="ProjectHeroImg img">
-                        <img class="OptimalAssessmentHeroImage" src="images/AI-financial-advisor/mockup.png" alt="Mockup of Optimal Assessment displayed on a computer">
+                        <img class="AIFinancialAdvisorHeroImage" src="images/AI-financial-advisor/mockup.png" alt="Mockup of AI financial advisor displayed on a laptop.">
                     </div>
                 </div>
                 
@@ -170,23 +185,25 @@ lightboxBackground.addEventListener('click', function() {
         
     </header>
     <main class="ProjectMainContent">
-        <h2 class="ProjectPageH2">The situation</h2>
-        <p>Even though students have varying learning styles, courses are often only taught and structured in one way. This can lead to students not being as invested in their learning as they could be. This is not the professors fault, as there are a lot of considerations that go into designing a course to meet various requirements.</p>
+        <h2>The situation</h2>
+        <p>During my IBM internship, I sat in on a workshop with a major financial institution that wanted to explore IBM's generative AI solutions. A lot of problems and ideas were shared, but one in particular stood out to me: <b class="Bolded">how could generative AI help people who have questions complex and personal financial situations?</b></p>
+        <!-- <p>The but were ultimately shelved because even though that use case was ranked as most important, it was also ranked as least feasible.</p>
+        <p><b class="Bolded">Even so, I recognized that this use case had potential, so after getting my manager's approval, I started to explore how IBM's AI solutions could provide user and business value by helping people with complex financial situations.</b></p> -->
         <h2>Research</h2>
-        <h3>Survey of professors</h3>
-        <div class="OptimalAssessmentProcessImages">
-            <img src="images/optimal-assessment/ProcessGraphics/ChangeCourseDesignGraphic@3x-8.png" alt="A heading that says: How often do you change the design
-            of your course from semester to semester 
-            (excluding minor changes such as adjusting the schedule). Below the heading, text reads: 50% almost every semester, 37.5% sometimes, 12.5% often.">
-            <img src="images/optimal-assessment/ProcessGraphics/HowDoGraphic@3x-8.png" alt="A heading that says: How do professors design their courses. Below, there are 4 quotes. The first quote says: Sticky notes on my dining room table to sort and group various lessons/projects. The second quote says: I read blogs, journals, and articles daily and listen to podcasts. The third quote says: A Text Edit document to arrange all my notes and topics. The fourth quote says: A list of topics in [Microsoft] Word that I start with.">
-            <img src="images/optimal-assessment/ProcessGraphics/ChallengesGraphic@3x-8.png" alt="A heading that says: What challenges do professors face with course design. Below, there are 4 quotes. The first quote says: Finding an overall flow for the course — most content is not linear in application or operation, but we have to put it into a linear timeline. The second quote says: Working with outside clients on course projects, realistic timelines, working in student teams for project delivery. The third quote says: Maintaining continuity of material, adding rich assessments without overloading myself with grading tasks. The fourth quote says: Knowing what topics, exercises, etc. will work since each semester is different.">
-            <!--
-                 <ul>
-                <li>All the professors I surveyed expressed that they redesign their courses, which told me that engage with the course design process on a regular basis. But they also </li>
-            </ul>
-            -->
-           
-        </div>
+        <h3>Talking to an expert</h3>
+        <p>I spoke with an expert on the banking industry and the different users and stakeholders involved in financial advising. He gave me four main personas, but said that one group of people is particularly underserved in terms of financial advising:</p>
+        <ul>
+            <!-- <li><span class="Bolded">Young adults with first well-paying job:</span>
+                This group of people has newly found disposable income, making around $60,000/year. They now need to make choices about how to use this new disposable income responsibly.
+            </li> -->
+            <!-- <li><span class="Bolded">New parents:</span>
+                A bit older than the previous group, these individuals are married and have one or two children. They may be encountering types of financial decisions for the first time, such as how to save for a house, build credit and develop college funds.
+            </li> -->
+            <li><span class="Bolded">People between 40 and 50-years-old:</span> These are established professionals with high-school aged kids. They are doing well financially, but still face challenges with wealth accumulation and management. Issues such as college funds and saving for retirement are becoming more prevalent as they begin to consider their longer-term goals.</li>
+            <!-- <li><span class="Bolded">People about to retire:</span> For this group of people, they are thinking about how they can retain their current lifestyle post-retirement. They might be focusing on issues such as longer-term healthcare.</li> -->
+        </ul>
+        
+       
         <!--
  <ul>
             <li>I spoke with professors to learn about how they go about designing a course. One thing I learned is that different professors have different methods for designing their courses because of the specific requirements that they need to fulfill.</li>
@@ -196,22 +213,68 @@ lightboxBackground.addEventListener('click', function() {
         -->
        
         <h3>Secondary research</h3>
-        <ul>
-            <li>I looked at existing research pertaining to pedagogy and how students learn. This introduced me to concepts such as Universal Design for Learning (UDL).</li>
-        </ul>
-        
+        <p>Because this wasn't an official client project, I wasn't given any resources to help me in conducting user research, but that didn't stop me from doing research to understand the user groups and potential challenges that they face.</p>
        
+        <h4>Many young adults turn to social media</h4>
+        <ul><li>One article said that 47% of young adult respondents use Reddit for financial information and advice.</li>
+        <li>This stood out to me because users looking for personal financial advice might appreciate the ability to stay anonymous while fostering personal connections.</li></ul>
+        <h4>Retirement planning is overwhelming for many</h4>
+        <ul><li>37% of adults surveyed said they have not done any retirement planning, and 76% of that group says that they find planning for retirement overwhelming.</li>
+        <li>A trusted, accessible source of financial information could help this group start to make a plan.</li></ul>
+        <h4>Financial advisor usage is low</h4>
+        <ul><li>For most age groups of adults older than 40, the percentage of people who report major financial stress is lower than the percentage of people who talk about their financial problems with a financial advisor.</li></ul>
+
         <h2>The design process</h2>
-        <h3>Concepting</h3>
-        <p>I noticed that a common theme among professors was their approaches and challenges in regards to organizing and planning course content. I created a low fidelity mockup to visualize solutions to make this process easier.</p>
-        <div class="OptimalAssessmentWireframe">
-            <img src="images/optimal-assessment/iteration3.png" alt="An early wireframe of the Optimal Assessment design">
+        <h3>Thinking about the user</h3>
+        <h4>Persona</h4>
+        <img src="images/AI-financial-advisor/Persona.png" class="LongImage" alt="A user persona">
+        <h3>Ideating</h3>
+        <h4>How Might I...</h4>
+        <p>Using the information I learned about the potential users and the financial advising and banking industries, I created some statements to focus on user problems.</p>
+        <div class="ImageProcess">
+            <img src="images/AI-financial-advisor/How-might-I.png">
         </div>
-        <h3>User testing insights</h3>
-        <p>Due to time constraints, I only had time to do one user testing session (although I plan to do more soon).</p>
-        <div class="case-study">
+        
+        
+        <h3>Forming a team</h3>
+        <p>When an internal, companywide hackathon was announced, I knew that this project could be taken further. First, I recruited two other designer interns to help with the interface and experience design.</p>
+        <h3>Medium fidelity prototype design decisions</h3>
+        <h4>Initial iteration: chatbot screen</h4>
+        <div>
+            <img src="images/AI-financial-advisor/Iteration-1.png" class="LongImage" alt="The first iteration of the chatbot screen.">
+        </div>
+        
+        <ul>
+            <li><span class="Bolded">User need:</span>
+                People with questions about unique financial situations often turn to social media so they can get personalized and specific answers.
+            </li>
+            <li><span class="Bolded">My solution:</span>
+                I designed an interface for users to chat with a chatbot about their financial questions, with the ability to select specific strings of their prompt to adjust the importance they want assigned to that part of their question.
+            </li>
+            <li><span class="Bolded">Why I did this:</span>
+                On social media sites, a person can indicate which parts of their question they deem more important than others by using factors such as the tone of their writing, formatting, and other context clues. While a chatbot can interpret some of these things to an extent, I added this feature to make it easier for the user to give the chatbot relevant information.
+            </li>
+        </ul>
+        <h4>Initial iteration: goals screen</h4>
+        <div>
+            <img src="images/AI-financial-advisor/FinancialGoalsIteration1.png" class="LongImage" alt="The first iteration of the goals screen.">
+        </div>
+        
+        <ul>
+            <li><span class="Bolded">User need:</span>
+                It can be difficult to set financial goals if you don't know the how to best measure success.
+            </li>
+            <li><span class="Bolded">My solution:</span>
+                I designed a screen where the user can view the financial goals that they create. It also displays relevant resources that the user may find useful in achieving their financial goals.
+            </li>
+            <li><span class="Bolded">Why I did this:</span>
+                Because this application would be integrated into a user's bank, the goals could be generated based on the data from their account. Any updates to goal progress would be reflected on this page, taking much of the hassle and guesswork out of the process. The resources could also guide users to the bank's various offerings and services, creating value for both the user and the bank.
+            </li>
+        </ul>
+
+        <!-- <div class="case-study">
          
-              <h4>Whiteboarding isn't for everyone</h4>
+              <h4>Iteration 1</h4>
               <p>Because professors have so many components they need to keep track of in each of their courses, I decided to design a screen where the professor could select the course components that apply to the assessment or lesson they are creating.</p>
               <div class="content">
               <div class="bullet-points">
@@ -223,7 +286,7 @@ lightboxBackground.addEventListener('click', function() {
                 </ul>
               </div>
               <div class="ImageProcess">
-                <img src="images/optimal-assessment/ProcessGraphics/UserTestWhiteboard.png" alt="An initial iteration of a screen for Optimal Assessment">
+                <img src="images/AI-financial-advisor/Iteration-1.png" alt="An initial iteration of a screen for Optimal Assessment">
               </div>
             </div>
           </div>
@@ -243,7 +306,7 @@ lightboxBackground.addEventListener('click', function() {
               <img src="images/optimal-assessment/ProcessGraphics/AddListItemsIterationGraphic.png" class="WhiteBackground" alt="Three iterations of a component for Optimal Assessment">
             </div>
           </div>
-        </div>
+        </div> -->
         <!--
  <div class="FinalDesignDiv">
         <div class="SlideshowParent">
@@ -305,7 +368,7 @@ lightboxBackground.addEventListener('click', function() {
            
         
        
-       <h3>Design decisions</h3>
+       <!-- <h3>Design decisions</h3>
        <h4>UX design/information architecture</h4>
        <ul>
         <li>Originally, the create course screen was divided across multiple separate screens. After looking at research about form patterns, I learned that splitting a form across multiple screens can create friction if a user decides to go back and change previous responses. I consolidated these screens into one, which should improve usability. However, when I conduct additional user testing I will pay close attention to validate this.</li>
@@ -313,13 +376,31 @@ lightboxBackground.addEventListener('click', function() {
         <h4>Visual design</h4>
         <ul>
             <li>I used green to signal primary actions to the user, such as a button that takes the user to the next page. I used red components to signify that an element will change something on the page when interacted with.</li>
+        </ul> -->
+
+        <h2>Outcome</h2>
+        <p>I organized a cross-functional team of designers, developers, data scientists, and sales and marketing specialists to build an AI financial advisor for an internal hackathon.</p>
+        <h2>Lessons learned</h2>
+        <h3 class="heading4">Think about the user and business value</h3>
+            <ul>
+                <li>A mentor encouraged me to consider not only the user value, but also the business value.</li> 
+                <li>As a result, I started to think about this project in terms of how improving the financial planning experience of a bank's account holders will ultimately help the bank build customer loyalty and promote bank services.</li>
+            </ul>
+        <h3 class="heading4">Work within a design system</h3>
+        <ul>
+            <li>By using IBM's design system, Carbon, for this project, I learned best practices for designing experiences using an existing design system. At first, I tended to detach components a lot, which is not the best practice.</li>
+            <li>As the project went on, I learned the importance of using the existing components properly in order to make the development process smoother and to keep consistency in the design.</li>
         </ul>
-        <h2 class="heading3">Outcome</h2>
-        <p class="heading4">I pitched this MVP with my partner in a business pitch competition and won first place. I am currently developing it into a functional MVP for improved user testing.</span>
+        <h3 class="heading4">Narrow the scope</h3>
+        <ul>
+            <li>While the other designers and I did our best to design an interface using best design system practices, we had to significantly narrow the scope of the final developed prototype that we submitted for the hackathon.</li>
+            <li>Despite this, our design thinking process allowed us to still develop a prototype that can meet user and business needs.</li>
+        </ul>
+        
             
               
         </p>
-        <h2 id="FinalDesignOptimalAssessment">Final design</h2>
+        <h2 id="FinalDesignAIFinancialAdvisor">Final design</h2>
         <!--
              <p>View video below to see full design. If YouTube embed doesn't work, <a href="https://drive.google.com/file/d/1oBnhM-LnFm8mt1gzaeCwd-qHPNEgqKpv/view?usp=sharing" target="_blank">click here to view the video.</a></p>
         -->
@@ -351,26 +432,26 @@ lightboxBackground.addEventListener('click', function() {
                     <p>Use the arrows to view the next image. If you can't see the full image, try scrolling on it!</p>
                     <div class="Slide FirstSlide">
                         <div class="OptimalAssessmentImage">
-                            <img src="images/optimal-assessment/pngs/MyCourses.png" alt="A screen from Optimal Assessment">
+                            <img src="images/AI-financial-advisor/FinalScreens/ChatbotHome.png" alt="The chatbot screen before prompting.">
                         </div>
                         <p class="ImageNumber">1/4</p>
                     </div>
                     <div class="Slide">
                         <div class="OptimalAssessmentImage">
-                            <img src="images/optimal-assessment/pngs/ClassInfo.png" alt="A screen from Optimal Assessment">
+                            <img src="images/AI-financial-advisor/FinalScreens/ChatbotConversation.png" alt="The chatbot screen after prompting.">
                         </div>
                         <p class="ImageNumber">2/4</p>
                     </div>
                     <div class="Slide">
                         <div class="OptimalAssessmentImage">
-                            <img src="images/optimal-assessment/pngs/Birds eye view.png" alt="A screen from Optimal Assessment">
+                            <img src="images/AI-financial-advisor/FinalScreens/ChatbotModalScreen.png" alt="A modal to edit the selected goal.">
                         </div>
                         <p class="ImageNumber">3/4</p>
                         
                     </div>
                     <div class="Slide">
                         <div class="OptimalAssessmentImage">
-                            <img src="images/optimal-assessment/pngs/IdeaSelectWholeComponent.png" alt="A screen from Optimal Assessment">
+                            <img src="images/AI-financial-advisor/FinalScreens/Dashboard.png" alt="A dashboard that has goals and resources.">
                         </div>
                         <p class="ImageNumber">4/4</p>
                         
@@ -430,15 +511,15 @@ lightboxBackground.addEventListener('click', function() {
                 </div>
         
                 <div class="FinalDesignImageGrid OptimalAssessmentSmallScreenFinalImages">
-                    <img src="images/optimal-assessment/pngs/MyCourses.png" alt="A screen from Optimal Assessment">
-                    <img src="images/optimal-assessment/pngs/ClassInfo.png" alt="A screen from Optimal Assessment">
-                    <img src="images/optimal-assessment/pngs/Birds eye view.png" alt="A screen from Optimal Assessment">
-                    <img src="images/optimal-assessment/pngs/IdeaSelectWholeComponent.png" alt="A screen from Optimal Assessment">
+                    <img src="images/AI-financial-advisor/FinalScreens/ChatbotHome.png" alt="The chatbot screen before prompting.">
+                    <img src="images/AI-financial-advisor/FinalScreens/ChatbotConversation.png" alt="The chatbot screen after prompting.">
+                    <img src="images/AI-financial-advisor/FinalScreens/ChatbotModalScreen.png" alt="A modal to edit the selected goal.">
+                    <img src="images/AI-financial-advisor/FinalScreens/Dashboard.png" alt="A dashboard that has goals and resources.">
                 </div>
                 
         
-        <h3>Prototype</h3>
-        <iframe width="1038" height="569" src="https://www.youtube.com/embed/3nNt5zj174Q" title="Optimal Assessment Prototype" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <!-- <h3>Prototype</h3>
+        <iframe width="1038" height="569" src="https://www.youtube.com/embed/3nNt5zj174Q" title="Optimal Assessment Prototype" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
         
         </div>
         <h2>View other projects</h2>
@@ -454,30 +535,30 @@ lightboxBackground.addEventListener('click', function() {
          
             <div class="OtherProjectsGrid MainProjectsGrid">
                 <div class="OtherProjectsGrid MainProjectsGrid">
+                    <div id="OptimalAssessmentOtherProjectCard">
+                        <a class="OtherProjectLink" href="optimalassessment.html">
+                            <div class="OtherProject">
+                                <p class="OtherProjectTag">ui <span class="TagAmpersand">&</span> ux</p>
+                                <p class="OtherProjectName">Optimal Assessment</p>
+                                <p class="ProjectHomeDescription BodyText">I won a business pitch competition with my prototype designed to help professors create courses for diverse learning styles.</p>
+                                <img class="OtherProjectImage OptimalAssessmentCardImage" src="images/optimal-assessment/OptimalAssessmentThumbnail.png" alt="Mockup of Optimal Assessment displayed on a computer">
+                            </div>
+                        </a>
+                    </div>
                     <div id="AIFinancialOtherProjectCard" class="CurrentOtherProject">
                         <a class="OtherProjectLink" href="aifinancialadvisor.html">
                         <div class="OtherProject">
-                            <p class="OtherProjectTag">ui & ux</p>
+                            <p class="OtherProjectTag">ui <span class="TagAmpersand">&</span> ux</p>
                             <p class="OtherProjectName">AI Financial Advisor</p>
                             <p class="ProjectHomeDescription BodyText">I led a team in designing the interface for an AI financial advisor for an internal IBM competition.</p>
-                            <img class="OtherProjectImage AIFinancialCardImage" src="images/AI-financial-advisor/mockup.png" alt="Mockup of Optimal Assessment displayed on a computer">
+                            <img class="OtherProjectImage AIFinancialCardImage" src="images/AI-financial-advisor/mockup.png" alt="Mockup of AI financial advisor displayed on a laptop.">
                         </div>
                     </a>
                 </div>
-                <div id="OptimalAssessmentOtherProjectCard">
-                    <a class="OtherProjectLink" href="optimalassessment.html">
-                    <div class="OtherProject">
-                        <p class="OtherProjectTag">ui & ux</p>
-                        <p class="OtherProjectName">Optimal Assessment</p>
-                        <p class="ProjectHomeDescription BodyText">I won a business pitch competition with my prototype designed to help professors create courses for diverse learning styles.</p>
-                        <img class="OtherProjectImage OptimalAssessmentCardImage" src="images/optimal-assessment/OptimalAssessmentThumbnail.png" alt="Mockup of Optimal Assessment displayed on a computer">
-                    </div>
-                </a>
-            </div>
                 <div id="ADHDTaskAppOtherProjectCard">
                     <a class="OtherProjectLink" href="adhdtaskapp.html">
                     <div class="OtherProject">
-                        <p class="OtherProjectTag">ui & ux</p>
+                        <p class="OtherProjectTag">ui <span class="TagAmpersand">&</span> ux</p>
                         <p class="OtherProjectName">ADHD Task App</p>
                         <p class="ProjectHomeDescription BodyText">I designed a prototype of a task tracking app for people with ADHD.</p>
                         <img class="OtherProjectImage ADHDTaskAppCardImage" src="images/adhd-app-mockup-medium.png" alt="Mockup of ADHD Task App displayed on a phone">
@@ -487,7 +568,7 @@ lightboxBackground.addEventListener('click', function() {
             <div id="DigitalCatMagazineOtherProjectCard">
                 <a class="OtherProjectLink" href="digitalcatmagazine.html">
                     <div class="OtherProject">
-                        <p class="OtherProjectTag">ui & ux</p>
+                        <p class="OtherProjectTag">ui <span class="TagAmpersand">&</span> ux</p>
                         <p class="OtherProjectName">Digital Cat Magazine</p>
                         <p class="ProjectHomeDescription BodyText">I turned a print magazine I designed into a mobile app design, keeping all the content the same.</p>
                         <img class="OtherProjectImage CatMagazineImage" src="images/CatMagazine/CatMagazine.png" alt="Mockup of homepage of mobile cat magazine displayed on a phone">
@@ -497,7 +578,7 @@ lightboxBackground.addEventListener('click', function() {
             <div id="TwitterFilterFeatureOtherProjectCard">
                 <a class="OtherProjectLink" href="twitterfilterfeature.html">
                 <div class="OtherProject">
-                    <p class="OtherProjectTag">ui & ux</p>
+                    <p class="OtherProjectTag">ui <span class="TagAmpersand">&</span> ux</p>
                     <p class="OtherProjectName">Twitter Filter Feature</p>
                     <p class="ProjectInfo ProjectHomeDescription BodyText">I collaborated with two designers to design a twitter feature that won a section of a 24-hour hackathon.</p>
                     <img class="OtherProjectImage TwitterFilterFeatureCardImage" src="images/TwitterFilterFeature.png" alt="Mockup of Twitter filtering feature displayed on a phone">
@@ -667,5 +748,7 @@ lightboxBackground.addEventListener('click', function() {
     </div>
 
 </footer>
+<!-- <script src="projectCard.js"></script>
+<script src="main.js"></script> -->
 </body>
 </html>

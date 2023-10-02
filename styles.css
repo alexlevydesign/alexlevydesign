@@ -77,6 +77,10 @@
   
   /* Responsive Styles */
   @media screen and (max-width: 1400px) {
+    .AIFinancialAdvisorHeroImage {
+        max-width: 600px !important;
+        margin-left: 4em;
+    }
     .AboutHeroText p {
         width: initial !important;
     }
@@ -149,7 +153,7 @@ html, body {
 /* Other Project Cards Switcher */
 
 #AIFinancialOtherProjectCard {
-display: none;
+/* display: none; */
 }
 
 #OptimalAssessmentOtherProjectCard {
@@ -198,11 +202,15 @@ display: none;
     max-height: 300px !important;
 }
 .AIFinancialCardImage {
-    max-height: 300px !important;
+    max-height: 235px !important;
 }
 
 
 @media only screen and (max-width: 5000px) {
+    .AIFinancialAdvisorHeroImage {
+        max-width: 700px;
+        
+    }
     .OptimalAssessmentScreenFlowHorizontal, .OptimalAssessmentScreenFlowVertical {
         list-style: none;
     }
@@ -237,7 +245,7 @@ display: none;
     
     }
     .LongImage {
-        max-width: 90% !important;
+        max-width: 1200px !important;
         margin-top: 1em;
         margin-bottom: 1em;
     }
@@ -267,6 +275,11 @@ display: none;
     .OtherProjectsGrid p {
         width: auto !important;
     }
+    .LongImage {
+        max-width: 1000px !important;
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
 }
 @media only screen and (max-width: 1400px) {
     .ProjectMainContent p, .ProjectMainContent li, .ProjectHeroInfoAndImage p {
@@ -277,6 +290,11 @@ display: none;
     }
     .OtherProjectsGrid p {
         width: auto !important;
+    }
+    .LongImage {
+        max-width: 900px !important;
+        margin-top: 1em;
+        margin-bottom: 1em;
     }
 }
 @media only screen and (max-width: 1200px) {
@@ -292,9 +310,19 @@ display: none;
     .OtherProjectsGrid p {
         width: auto !important;
     }
+    .LongImage {
+        max-width: 800px !important;
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
 }
 
 @media only screen and (max-width: 1000px) {
+    .ProjectHeroImg .AIFinancialAdvisorHeroImage {
+        max-width: 370px !important;
+        margin-right: 1em !important;
+        margin-left: 4em;
+    }
     .OptimalAssessmentFinalImages .Slide {
         max-width: 600px !important;
     }
@@ -326,6 +354,11 @@ display: none;
     }
     .OtherProjectsGrid p {
         width: auto !important;
+    }
+    .LongImage {
+        max-width: 90% !important;
+        margin-top: 1em;
+        margin-bottom: 1em;
     }
 }
 @media only screen and (max-width: 940px) {
@@ -402,6 +435,7 @@ display: none;
 
 }
 @media only screen and (max-width: 550px) {
+    
     .OptimalAssessmentScreenFlowHorizontal {
         display: none;
     }
@@ -642,6 +676,11 @@ i {
 
 }
 @media only screen and (max-width: 1100px) {
+    .ProjectHeroImg .AIFinancialAdvisorHeroImage {
+        max-width: 430px !important;
+        margin-right: 0 !important;
+        margin-left: 4em;
+    }
     .ProcessImage {
        max-width: 250px !important;
     }
@@ -669,6 +708,11 @@ i {
 
 }
 @media only screen and (max-width: 940px) {
+    .ProjectHeroImg .AIFinancialAdvisorHeroImage {
+        max-width: 90% !important;
+        margin-right: 0 !important;
+        margin-left: 10vw;
+    }
     
     .ProjectHeroInfoAndImage .FinalFilmPoster {
         max-width: 250px !important;
@@ -685,6 +729,11 @@ i {
       }
 }
 @media only screen and (max-width: 480px) {
+    .AIFinancialAdvisorHeroImage {
+        max-width: 370px !important;
+        margin-right: 0 !important;
+        margin-left: 5vw !important;
+    }
     .FinalFilmPoster {
         max-width: 250px !important;
        padding-left: 0vw !important;
@@ -1332,6 +1381,11 @@ margin-bottom: 4px !important;
     max-width: 500px !important;
     margin-right: 4em;
 }
+.AIFinancialAdvisorHeroImage {
+    max-width: 700px;
+    margin-right: 1em;
+    margin-left: 4em;
+}
 
 /* OPTIMAL ASSESSMENT PAGE END */
 
@@ -1969,25 +2023,30 @@ padding: 0;
 /* HOME PAGE END */
 
 @media only screen and (max-width: 1330px) {
+    .AIFinancialAdvisorHeroImage {
+        max-width: 550px !important;
+        margin-right: 2em;
+        margin-left: 4em;
+    }
     .OtherProject {
       width: 450px;
     }
-    .LongImage {
+    /* .LongImage {
         max-width: 90%;
         margin-top: 1em;
         margin-bottom: 1em;
 
-}
+} */
 .TypeSpecimenHeroImage {
     max-width: 600px !important;
 }
 }
 @media only screen and (max-width: 1360px) {
-    .LongImage {
+    /* .LongImage {
         max-width: 90%;
         margin-top: 1em;
         margin-bottom: 1em;
-    }
+    } */
 }
 
 /* START MOBILE LESS THAN 1200px */
@@ -1996,7 +2055,11 @@ padding: 0;
 
 @media only screen and (max-width: 1200px) {
     
-    
+    .AIFinancialAdvisorHeroImage {
+        max-width: 500px !important;
+        margin-right: 2em !important;
+        margin-left: 4em;
+    }
     .TypeSpecimenHeroImage {
         max-width: 500px !important;
     }
@@ -2432,6 +2495,11 @@ line-height: 140%;
         }
         .TypeSpecimenHeroImage {
             margin-left: 10vw !important;
+        }
+        .LongImage {
+            max-width: 100% !important;
+            margin-top: 1em;
+            margin-bottom: 1em;
         }
     }
 
